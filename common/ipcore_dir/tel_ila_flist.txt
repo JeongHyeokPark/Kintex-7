@@ -1,0 +1,19 @@
+# Output products list for <tel_ila>
+_xmsgs/pn_parser.xmsgs
+tel_ila.asy
+tel_ila.cdc
+tel_ila.constraints/tel_ila.ucf
+tel_ila.constraints/tel_ila.xdc
+tel_ila.gise
+tel_ila.ncf
+tel_ila.ngc
+tel_ila.sym
+tel_ila.ucf
+tel_ila.vhd
+tel_ila.vho
+tel_ila.xco
+tel_ila.xdc
+tel_ila.xise
+tel_ila_flist.txt
+tel_ila_readme.txt
+tel_ila_xmdf.tcl

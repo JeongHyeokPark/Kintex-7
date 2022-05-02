@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="701" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/s_channel.vhd" Line 212: Partially associated formal <arg fmt="%s" index="1">ddrout</arg> cannot have actual OPEN
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="701" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/s_channel.vhd" Line 291: Partially associated formal <arg fmt="%s" index="1">streamout</arg> cannot have actual OPEN
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="701" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/s_channel.vhd" Line 309: Partially associated formal <arg fmt="%s" index="1">streamout</arg> cannot have actual OPEN
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="701" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/f_channel.vhd" Line 147: Partially associated formal <arg fmt="%s" index="1">ddrout</arg> cannot have actual OPEN
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="701" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd" Line 694: Partially associated formal <arg fmt="%s" index="1">rstport_n</arg> cannot have actual OPEN
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="701" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd" Line 697: Partially associated formal <arg fmt="%s" index="1">rstport_n</arg> cannot have actual OPEN
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="701" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd" Line 699: Partially associated formal <arg fmt="%s" index="1">rstport_n</arg> cannot have actual OPEN
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd" Line 423: Using initial value <arg fmt="%s" index="1">&quot;00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&quot;</arg> for <arg fmt="%s" index="2">all_zero_128</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/comZone.vhd" Line 127: <arg fmt="%s" index="1">letterboxlocal</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/comZone.vhd" Line 135: <arg fmt="%s" index="1">readlate</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/comZone.vhd" Line 136: <arg fmt="%s" index="1">ramdataout</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/general_io.vhd" Line 127: <arg fmt="%s" index="1">configreg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/general_io.vhd" Line 246: Net &lt;<arg fmt="%s" index="1">regLoad.initConfig[15]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/ddr_adc.vhd" Line 182: Assignment to <arg fmt="%s" index="1">ce</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/ddr_adc.vhd" Line 200: <arg fmt="%s" index="1">p_del_to_ddr</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/ddr_adc.vhd" Line 204: <arg fmt="%s" index="1">sync</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/ddr_adc.vhd" Line 215: Assignment to <arg fmt="%s" index="1">ce</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/waver.vhd" Line 283: Using initial value <arg fmt="%s" index="1">&quot;0000000000000000000000000000000000000000000000000000000000000000&quot;</arg> for <arg fmt="%s" index="2">all_zero_64</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/waver.vhd" Line 385: Assignment to <arg fmt="%s" index="1">dummy</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/reader.vhd" Line 95: Using initial value <arg fmt="%s" index="1">&quot;0000000000000000000000000000000000000000000000000000000000000000&quot;</arg> for <arg fmt="%s" index="2">all_zero_64</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/reader.vhd" Line 167: <arg fmt="%s" index="1">jesuisb</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/energy.vhd" Line 87: Using initial value <arg fmt="%s" index="1">&quot;00000000000000000000000000000000000000000000000000000000000000000000000000000000&quot;</arg> for <arg fmt="%s" index="2">all_zero_80</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="758" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/telB/ipcore_dir/ram_1kx15.vhd" Line 43: Replacing existing netlist <arg fmt="%s" index="1">ram_1kx15</arg>(<arg fmt="%s" index="2"></arg>)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/s_channel.vhd" Line 470: Assignment to <arg fmt="%s" index="1">status</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/f_channel.vhd" Line 281: Assignment to <arg fmt="%s" index="1">phaser</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/f_channel.vhd" Line 101: Net &lt;<arg fmt="%s" index="1">mainStream[13]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="758" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/telB/ipcore_dir/ram_1kx24.vhd" Line 43: Replacing existing netlist <arg fmt="%s" index="1">ram_1kx24</arg>(<arg fmt="%s" index="2"></arg>)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/csi_channel.vhd" Line 235: Using initial value <arg fmt="%s" index="1">&quot;00000000000000000000000000000000000000000000000000000000000000000&quot;</arg> for <arg fmt="%s" index="2">all_zero_64</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/csi_channel.vhd" Line 736: Assignment to <arg fmt="%s" index="1">status</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/read_engine_new.vhd" Line 247: Using initial value <arg fmt="%s" index="1">&quot;00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&quot;</arg> for <arg fmt="%s" index="2">all_zero_128</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/read_engine_new.vhd" Line 606: <arg fmt="%s" index="1">val</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/read_engine_new.vhd" Line 635: Assignment to <arg fmt="%s" index="1">triggerpattern</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/read_engine_new.vhd" Line 1364: <arg fmt="%s" index="1">telid</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/read_engine_new.vhd" Line 1370: <arg fmt="%s" index="1">fifoout</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/read_engine_new.vhd" Line 1374: <arg fmt="%s" index="1">fifoout</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/read_engine_new.vhd" Line 1378: <arg fmt="%s" index="1">fifoout</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/read_engine_new.vhd" Line 1382: <arg fmt="%s" index="1">datain</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/fastlink/fastlink.vhd" Line 131: Using initial value <arg fmt="%s" index="1">&quot;000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&quot;</arg> for <arg fmt="%s" index="2">all_zero_128</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/fastlink/N_ISERDES8b_MsAllign.vhd" Line 34: Using initial value <arg fmt="%s" index="1">&quot;000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&quot;</arg> for <arg fmt="%s" index="2">all_zero_128</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/fastlink/fastlink.vhd" Line 492: Assignment to <arg fmt="%s" index="1">msb_sync</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/fastlink/fastlink.vhd" Line 177: Net &lt;<arg fmt="%s" index="1">dout_H[7]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/fastlink/fastlink.vhd" Line 178: Net &lt;<arg fmt="%s" index="1">dout_L[7]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/offset_ctrl.vhd" Line 78: Assignment to <arg fmt="%s" index="1">dummy</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd" Line 1699: <arg fmt="%s" index="1">blkbusyin</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/telB/psSyncGen.vhd" Line 76: <arg fmt="%s" index="1">psperiod</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/telB/psSyncGen.vhd" Line 78: <arg fmt="%s" index="1">psperiodhv</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/telB/psSyncGen.vhd" Line 127: <arg fmt="%s" index="1">slowctbus</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd" Line 372: Net &lt;<arg fmt="%s" index="1">slowCtBusRdVirtu[15]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">lWaitIn</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ioFpga_10</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd</arg>&quot; line <arg fmt="%s" index="2">615</arg>: Output port &lt;<arg fmt="%s" index="3">CLK0_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">delDcm</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd</arg>&quot; line <arg fmt="%s" index="2">615</arg>: Output port &lt;<arg fmt="%s" index="3">CLK2X_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">delDcm</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd</arg>&quot; line <arg fmt="%s" index="2">660</arg>: Output port &lt;<arg fmt="%s" index="3">inspect</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">adc_monitor</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd</arg>&quot; line <arg fmt="%s" index="2">719</arg>: Output port &lt;<arg fmt="%s" index="3">alignFromSc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">genIoBloc</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd</arg>&quot; line <arg fmt="%s" index="2">719</arg>: Output port &lt;<arg fmt="%s" index="3">blkBusyFromSc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">genIoBloc</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd</arg>&quot; line <arg fmt="%s" index="2">774</arg>: Output port &lt;<arg fmt="%s" index="3">readerStateMach</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">qh1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd</arg>&quot; line <arg fmt="%s" index="2">774</arg>: Output port &lt;<arg fmt="%s" index="3">readerErrBit</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">qh1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd</arg>&quot; line <arg fmt="%s" index="2">842</arg>: Output port &lt;<arg fmt="%s" index="3">readerStateMach</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd</arg>&quot; line <arg fmt="%s" index="2">842</arg>: Output port &lt;<arg fmt="%s" index="3">readerErrBit</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd</arg>&quot; line <arg fmt="%s" index="2">902</arg>: Output port &lt;<arg fmt="%s" index="3">readerStateMach</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ql1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd</arg>&quot; line <arg fmt="%s" index="2">902</arg>: Output port &lt;<arg fmt="%s" index="3">readerErrBit</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ql1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd</arg>&quot; line <arg fmt="%s" index="2">962</arg>: Output port &lt;<arg fmt="%s" index="3">readerStateMach</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">q2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd</arg>&quot; line <arg fmt="%s" index="2">962</arg>: Output port &lt;<arg fmt="%s" index="3">readerErrBit</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">q2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd</arg>&quot; line <arg fmt="%s" index="2">1029</arg>: Output port &lt;<arg fmt="%s" index="3">readerStateMach</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd</arg>&quot; line <arg fmt="%s" index="2">1029</arg>: Output port &lt;<arg fmt="%s" index="3">readerErrBit</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd</arg>&quot; line <arg fmt="%s" index="2">1089</arg>: Output port &lt;<arg fmt="%s" index="3">readerStateMach</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">q3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd</arg>&quot; line <arg fmt="%s" index="2">1089</arg>: Output port &lt;<arg fmt="%s" index="3">readerErrBit</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">q3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd</arg>&quot; line <arg fmt="%s" index="2">1259</arg>: Output port &lt;<arg fmt="%s" index="3">etatTrigger</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">trigger</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.vhd</arg>&quot; line <arg fmt="%s" index="2">1259</arg>: Output port &lt;<arg fmt="%s" index="3">sourceBrute</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">trigger</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">slowCtBusRdVirtu</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="2774" delta="old" >HDL ADVISOR - <arg fmt="%s" index="1">KEEP</arg> <arg fmt="%s" index="2">property</arg> attached to signal <arg fmt="%s" index="3">clk</arg> may hinder XST clustering optimizations.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">alignDataBit</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">slowCtBus_data&lt;15:7&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">regLoad.initConfig&lt;15:5&gt;</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">GeneralIo</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">00000000000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">regLoad.initConfig&lt;3:0&gt;</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">GeneralIo</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">slowCtBus_data</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/tel_sysmon.vhd</arg>&quot; line <arg fmt="%s" index="2">59</arg>: Output port &lt;<arg fmt="%s" index="3">chanout</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">system_mon</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/sysmon.vhd</arg>&quot; line <arg fmt="%s" index="2">80</arg>: Output port &lt;<arg fmt="%s" index="3">EOC_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">sysmon_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/sysmon.vhd</arg>&quot; line <arg fmt="%s" index="2">80</arg>: Output port &lt;<arg fmt="%s" index="3">EOS_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">sysmon_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/sysmon.vhd</arg>&quot; line <arg fmt="%s" index="2">80</arg>: Output port &lt;<arg fmt="%s" index="3">ALARM_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">sysmon_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">alignBus_ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">alignBus_rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">slowCtBus_data&lt;15:12&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">clk25MHz</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">mainStream</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">alignBus_ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">alignBus_rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">slowCtBus_data&lt;15:13&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">rd_item_0</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">readCs</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">rd_item</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">readCs</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">clk25MHz</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">mainStream</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">alignBus_ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">alignBus_rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">slowCtBus_data&lt;15:13&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">rd_item_0</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">readCs</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">rd_item</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">readCs</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">alignBus_ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">alignBus_rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">slowCtBus_data&lt;15:12&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">clk25MHz</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">mainStream</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">alignBus_ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">alignBus_rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">slowCtBus_data&lt;15:13&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">rd_item_0</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">readCs</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">rd_item</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">readCs</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/csi_channel.vhd</arg>&quot; line <arg fmt="%s" index="2">432</arg>: Output port &lt;<arg fmt="%s" index="3">trigSlow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">blockFastNrj</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemAddr&lt;3&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemAddr&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemAddr&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemAddr&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemData&lt;15&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemData&lt;14&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemData&lt;13&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemData&lt;12&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemData&lt;11&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemData&lt;10&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemData&lt;9&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemData&lt;8&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemData&lt;7&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemData&lt;6&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemData&lt;5&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemData&lt;4&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemData&lt;3&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemData&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemData&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">itemData&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">alignBus_ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">alignBus_rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">slowCtBus_data&lt;15:12&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">spyBus</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">slowCtBus_data&lt;15:4&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">alignIn</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">alignOut</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoWe</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoIn&lt;15&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoIn&lt;14&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoIn&lt;13&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoIn&lt;12&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoIn&lt;11&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoIn&lt;10&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoIn&lt;9&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoIn&lt;8&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoIn&lt;7&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoIn&lt;6&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoIn&lt;5&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoIn&lt;4&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoIn&lt;3&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoIn&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoIn&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoIn&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoItemWr&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoItemWr&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoItemWr&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">resetEvtReceived</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">resetTsRequest</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">resetBitmask</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoItemRd&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoItemRd&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fifoItemRd&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">voieInt</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/fastlink/fastlink.vhd</arg>&quot; line <arg fmt="%s" index="2">394</arg>: Output port &lt;<arg fmt="%s" index="3">full</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fifo1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/fastlink/fastlink.vhd</arg>&quot; line <arg fmt="%s" index="2">394</arg>: Output port &lt;<arg fmt="%s" index="3">empty</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fifo1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/fastlink/fastlink.vhd</arg>&quot; line <arg fmt="%s" index="2">411</arg>: Output port &lt;<arg fmt="%s" index="3">full</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fifo2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/fastlink/fastlink.vhd</arg>&quot; line <arg fmt="%s" index="2">411</arg>: Output port &lt;<arg fmt="%s" index="3">empty</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fifo2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/fastlink/fastlink.vhd</arg>&quot; line <arg fmt="%s" index="2">424</arg>: Output port &lt;<arg fmt="%s" index="3">full</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fifo3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/fastlink/fastlink.vhd</arg>&quot; line <arg fmt="%s" index="2">424</arg>: Output port &lt;<arg fmt="%s" index="3">empty</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fifo3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">dout_H</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">dout_L</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/fazia/Desktop/debug_fazia_code_roms/common/fastlink/clkgenerator.vhd</arg>&quot; line <arg fmt="%s" index="2">54</arg>: Output port &lt;<arg fmt="%s" index="3">CLKFBOUT_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">inst_the_pll</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">INC_DEL</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">slowCtBus_data&lt;11:11&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">slowCtBus_data&lt;15:13&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">slowCtBus_data&lt;15:10&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">slowCtBus_data&lt;15:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">din_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">system_mon</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">12 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;din_3&gt; &lt;din_4&gt; &lt;din_5&gt; &lt;din_6&gt; &lt;din_7&gt; &lt;din_8&gt; &lt;din_10&gt; &lt;din_11&gt; &lt;din_12&gt; &lt;din_13&gt; &lt;din_14&gt; &lt;din_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">tensionDac_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">offsetAnalog</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;tensionDac_1&gt; &lt;tensionDac_12&gt; &lt;tensionDac_13&gt; &lt;tensionDac_14&gt; &lt;tensionDac_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">tensionDacSi1_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">offsetAnalog</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;tensionDacSi1_13&gt; &lt;tensionDacSi1_14&gt; &lt;tensionDacSi1_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">tensionDacCsi_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">offsetAnalog</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;tensionDacCsi_13&gt; &lt;tensionDacCsi_14&gt; &lt;tensionDacCsi_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">tensionDacSi2_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">offsetAnalog</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;tensionDacSi2_13&gt; &lt;tensionDacSi2_14&gt; &lt;tensionDacSi2_15&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">itemData_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">q3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">saveWave_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rEngine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">din_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">system_mon</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">din_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">system_mon</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tensionDac_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">offsetAnalog</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tensionDacSi1_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">offsetAnalog</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tensionDacSi2_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">offsetAnalog</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tensionDacCsi_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">offsetAnalog</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mode_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">picItfBloc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tensionDacSi1_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">offsetAnalog</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tensionDacSi1_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">offsetAnalog</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tensionDacSi2_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">offsetAnalog</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tensionDacSi2_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">offsetAnalog</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tensionDacCsi_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">offsetAnalog</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tensionDacCsi_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">offsetAnalog</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">saveWave</arg>&lt;<arg fmt="%d" index="2">11</arg>:<arg fmt="%d" index="3">11</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">ReadEngine</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">din</arg>&lt;<arg fmt="%d" index="2">15</arg>:<arg fmt="%d" index="3">10</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">USERSYSMON</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">tensionDac</arg>&lt;<arg fmt="%d" index="2">15</arg>:<arg fmt="%d" index="3">12</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">OffsetCtrl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">tensionDacSi1</arg>&lt;<arg fmt="%d" index="2">15</arg>:<arg fmt="%d" index="3">12</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">OffsetCtrl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">tensionDacSi2</arg>&lt;<arg fmt="%d" index="2">15</arg>:<arg fmt="%d" index="3">12</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">OffsetCtrl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">tensionDacCsi</arg>&lt;<arg fmt="%d" index="2">15</arg>:<arg fmt="%d" index="3">12</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">OffsetCtrl</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_slowCtBus_addr[3]_GND_130_o_Mux_36_o</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_slowCtBus_addr[3]_GND_380_o_Mux_36_o</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_slowCtBus_addr[3]_GND_541_o_Mux_36_o</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_slowCtBus_addr[3]_GND_543_o_Mux_36_o</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0712</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_indexLUT[7]_PWR_80_o_wide_mux_3_OUT</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0170</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mode_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PicItf</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tensionDacSi1_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OffsetCtrl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tensionDacSi1_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OffsetCtrl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tensionDacSi2_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OffsetCtrl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tensionDacSi2_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OffsetCtrl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tensionDacCsi_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OffsetCtrl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tensionDacCsi_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OffsetCtrl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">itemData_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CsiChannel</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">daddr_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">USERSYSMON</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">daddr_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">USERSYSMON</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">daddr_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">USERSYSMON</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">daddr_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">USERSYSMON</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">din_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">USERSYSMON</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">din_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">USERSYSMON</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">din_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">USERSYSMON</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">din_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">USERSYSMON</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">din_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">USERSYSMON</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">din_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">USERSYSMON</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">din_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">USERSYSMON</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">din_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">USERSYSMON</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tensionDac_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OffsetCtrl</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tensionDac_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OffsetCtrl</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">INC_DEL</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">N_ISERDES8b_MsAllign</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2146" delta="old" >In block &lt;<arg fmt="%s" index="1">Energy_1</arg>&gt;, <arg fmt="%s" index="2">Counter</arg> &lt;<arg fmt="%s" index="3">formeur/rising/compteur</arg>&gt; </msg>
+
+<msg type="info" file="Xst" num="2146" delta="old" >In block &lt;<arg fmt="%s" index="1">ETrigger_1</arg>&gt;, <arg fmt="%s" index="2">Counter</arg> &lt;<arg fmt="%s" index="3">formeur/falling/compteur</arg>&gt; </msg>
+
+<msg type="info" file="Xst" num="2146" delta="old" >In block &lt;<arg fmt="%s" index="1">ETrigger_1</arg>&gt;, <arg fmt="%s" index="2">Counter</arg> &lt;<arg fmt="%s" index="3">baseMean/meanPtRd</arg>&gt; </msg>
+
+<msg type="info" file="Xst" num="2146" delta="old" >In block &lt;<arg fmt="%s" index="1">Energy_2</arg>&gt;, <arg fmt="%s" index="2">Counter</arg> &lt;<arg fmt="%s" index="3">formeur/rising/compteur</arg>&gt; </msg>
+
+<msg type="info" file="Xst" num="2146" delta="old" >In block &lt;<arg fmt="%s" index="1">ETrigger_2</arg>&gt;, <arg fmt="%s" index="2">Counter</arg> &lt;<arg fmt="%s" index="3">formeur/falling/compteur</arg>&gt; </msg>
+
+<msg type="info" file="Xst" num="2146" delta="old" >In block &lt;<arg fmt="%s" index="1">ETrigger_2</arg>&gt;, <arg fmt="%s" index="2">Counter</arg> &lt;<arg fmt="%s" index="3">baseMean/meanPtRd</arg>&gt; </msg>
+
+<msg type="info" file="Xst" num="2146" delta="old" >In block &lt;<arg fmt="%s" index="1">Energy_3</arg>&gt;, <arg fmt="%s" index="2">Counter</arg> &lt;<arg fmt="%s" index="3">formeur/falling/compteur</arg>&gt; </msg>
+
+<msg type="info" file="Xst" num="2146" delta="old" >In block &lt;<arg fmt="%s" index="1">Energy_4</arg>&gt;, <arg fmt="%s" index="2">Counter</arg> &lt;<arg fmt="%s" index="3">formeur/falling/compteur</arg>&gt; </msg>
+
+<msg type="info" file="Xst" num="2146" delta="old" >In block &lt;<arg fmt="%s" index="1">ETrigger_3</arg>&gt;, <arg fmt="%s" index="2">Counter</arg> &lt;<arg fmt="%s" index="3">formeur/falling/compteur</arg>&gt; </msg>
+
+<msg type="info" file="Xst" num="2146" delta="old" >In block &lt;<arg fmt="%s" index="1">ETrigger_3</arg>&gt;, <arg fmt="%s" index="2">Counter</arg> &lt;<arg fmt="%s" index="3">baseMean/meanPtRd</arg>&gt; </msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReadEngine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">configReg_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">GeneralIo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">configReg_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">GeneralIo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Aligner_new</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Aligner_new</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Aligner_new</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Aligner_new</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Aligner_new</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Aligner_new</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Aligner_new</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Aligner_new</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">SysMonitor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">SysMonitor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">SysMonitor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">trigBitmask_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">trigger</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">trigBitmask_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">trigger</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">trigBitmask_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">trigger</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">trigBitmask_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">trigger</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">trigBitmask_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">trigger</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">trigger</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">trigger</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">trigger</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">trigger</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OffsetCtrl</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OffsetCtrl</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OffsetCtrl</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OffsetCtrl</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OffsetCtrl</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OffsetCtrl</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PsSyncGen</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PsSyncGen</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PsSyncGen</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PsSyncGen</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PsSyncGen</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PsSyncGen</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PsSyncGen</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">slowCtBusRd_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PsSyncGen</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">adc_clk_del</arg> in unit <arg fmt="%s" index="2">DDR_ADC_1</arg> of type <arg fmt="%s" index="3">IDELAY</arg> has been replaced by <arg fmt="%s" index="4">IDELAYE2</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[0].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_1</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[1].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_1</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[2].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_1</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[3].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_1</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[4].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_1</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[5].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_1</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[6].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_1</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[7].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_1</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[0].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_1</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[1].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_1</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[2].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_1</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[3].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_1</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[4].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_1</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[5].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_1</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[6].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_1</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[7].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_1</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">adc_clk_del</arg> in unit <arg fmt="%s" index="2">DDR_ADC_2</arg> of type <arg fmt="%s" index="3">IDELAY</arg> has been replaced by <arg fmt="%s" index="4">IDELAYE2</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[0].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_2</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[1].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_2</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[2].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_2</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[3].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_2</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[4].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_2</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[5].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_2</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[6].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_2</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[7].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_2</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[0].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_2</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[1].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_2</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[2].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_2</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[3].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_2</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[4].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_2</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[5].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_2</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[6].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_2</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[7].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_2</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">adc_clk_del</arg> in unit <arg fmt="%s" index="2">DDR_ADC_3</arg> of type <arg fmt="%s" index="3">IDELAY</arg> has been replaced by <arg fmt="%s" index="4">IDELAYE2</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[0].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_3</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[1].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_3</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[2].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_3</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[3].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_3</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[4].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_3</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[5].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_3</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[6].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_3</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[7].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_3</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[0].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_3</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[1].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_3</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[2].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_3</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[3].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_3</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[4].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_3</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[5].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_3</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[6].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_3</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[7].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_3</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">adc_clk_del</arg> in unit <arg fmt="%s" index="2">DDR_ADC_4</arg> of type <arg fmt="%s" index="3">IDELAY</arg> has been replaced by <arg fmt="%s" index="4">IDELAYE2</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[0].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_4</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[1].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_4</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[2].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_4</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[3].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_4</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[4].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_4</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[5].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_4</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[6].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_4</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[7].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_4</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[0].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_4</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[1].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_4</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[2].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_4</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[3].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_4</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[4].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_4</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[5].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_4</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[6].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_4</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[7].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_4</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">adc_clk_del</arg> in unit <arg fmt="%s" index="2">DDR_ADC_5</arg> of type <arg fmt="%s" index="3">IDELAY</arg> has been replaced by <arg fmt="%s" index="4">IDELAYE2</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[0].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_5</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[1].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_5</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[2].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_5</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[3].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_5</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[4].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_5</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[5].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_5</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[6].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_5</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[7].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_5</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[0].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_5</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[1].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_5</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[2].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_5</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[3].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_5</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[4].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_5</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[5].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_5</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[6].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_5</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[7].fastInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_5</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">adc_clk_del</arg> in unit <arg fmt="%s" index="2">DDR_ADC_6</arg> of type <arg fmt="%s" index="3">IDELAY</arg> has been replaced by <arg fmt="%s" index="4">IDELAYE2</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[0].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_6</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[1].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_6</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[2].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_6</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[3].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_6</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[4].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_6</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[5].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_6</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[6].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_6</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[7].idels</arg> in unit <arg fmt="%s" index="2">DDR_ADC_6</arg> of type <arg fmt="%s" index="3">IODELAY</arg> has been replaced by <arg fmt="%s" index="4">IODELAYE1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[0].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_6</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[1].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_6</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[2].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_6</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[3].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_6</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[4].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_6</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[5].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_6</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[6].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_6</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">make_path[7].slowInstance.iddr_x</arg> in unit <arg fmt="%s" index="2">DDR_ADC_6</arg> of type <arg fmt="%s" index="3">IDDR</arg> has been replaced by <arg fmt="%s" index="4">IDDR_2CLK</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">ser_H/OSER8B_inst/soserdes_inst</arg> in unit <arg fmt="%s" index="2">ser_H/OSER8B_inst/soserdes_inst</arg> of type <arg fmt="%s" index="3">OSERDES</arg> has been replaced by <arg fmt="%s" index="4">OSERDESE2</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">ser_H/OSER8B_inst/moserdes_inst</arg> in unit <arg fmt="%s" index="2">ser_H/OSER8B_inst/moserdes_inst</arg> of type <arg fmt="%s" index="3">OSERDES</arg> has been replaced by <arg fmt="%s" index="4">OSERDESE2</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">ser_L/OSER8B_inst/soserdes_inst</arg> in unit <arg fmt="%s" index="2">ser_L/OSER8B_inst/soserdes_inst</arg> of type <arg fmt="%s" index="3">OSERDES</arg> has been replaced by <arg fmt="%s" index="4">OSERDESE2</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">ser_L/OSER8B_inst/moserdes_inst</arg> in unit <arg fmt="%s" index="2">ser_L/OSER8B_inst/moserdes_inst</arg> of type <arg fmt="%s" index="3">OSERDES</arg> has been replaced by <arg fmt="%s" index="4">OSERDESE2</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">regRead_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Waver_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;regRead_14&gt; &lt;regRead_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">regRead_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Waver_2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;regRead_14&gt; &lt;regRead_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">regRead_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Waver_3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;regRead_14&gt; &lt;regRead_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">regRead_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Waver_4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;regRead_14&gt; &lt;regRead_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">regRead_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Waver_5</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;regRead_14&gt; &lt;regRead_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">regRead_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Waver_6</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;regRead_14&gt; &lt;regRead_15&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adc_monitor/rstPort_n_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adc_monitor/rstPort_n_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adc_monitor/rstPort_n_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adc_monitor/GND_13_o_clk_DFF_114</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adc_monitor/GND_13_o_clk_DFF_109</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adc_monitor/GND_13_o_clk_DFF_111</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="3001" delta="old" >This design contains one or more registers or latches with an active
+asynchronous set and asynchronous reset. While this circuit can be built,
+it creates a sub-optimal implementation in terms of area, power and
+performance. For a more optimal implementation Xilinx highly recommends
+one of the following:
+
+       1) Remove either the set or reset from all registers and latches if
+          not needed for required functionality
+       2) Modify the code in order to produce a synchronous set
+          and/or reset (both is preferred)
+       3) Use the -async_to_sync option to transform the asynchronous
+          set/reset to synchronous operation
+          (timing simulation highly recommended when using this option)
+</msg>
+
+<msg type="warning" file="Xst" num="2042" delta="old" >Unit <arg fmt="%s" index="1">telescope</arg>: <arg fmt="%d" index="2">3</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">rEngine/bitmaskForAcq_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">rEngine/bitmaskForAcq_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">rEngine/bitmaskForAcq_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">rEngine/bitmaskForAcq_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">rEngine/bitmaskForAcq_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">qh1/waverSlow/lecteur/errbit</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">qh1/ddr_16_1/syncData</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">qh1/ddr_16_1/ddrQ_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">qh1/ddr_16_1/alignDataBit</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i1/waverFast/lecteur/errbit</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i1/ddr_16_1/syncData</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i1/ddr_16_1/alignDataBit</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ql1/waverFast/lecteur/errbit</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ql1/ddr_16_1/syncData</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ql1/ddr_16_1/alignDataBit</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">q2/waverSlow/lecteur/errbit</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">q2/ddr_16_1/syncData</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">q2/ddr_16_1/ddrQ_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">q2/ddr_16_1/alignDataBit</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i2/waverFast/lecteur/errbit</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i2/ddr_16_1/syncData</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i2/ddr_16_1/alignDataBit</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">q3/waverSlow/lecteur/errbit</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">q3/ddr_16_1/syncData</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">q3/ddr_16_1/ddrQ_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">q3/ddr_16_1/alignDataBit</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">q3/blockFastNrj/trigSlowLocal</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">genIoBloc/alignezMoi</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">genIoBloc/timer_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">genIoBloc/timer_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">genIoBloc/timer_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">genIoBloc/timer_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">genIoBloc/timer_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">genIoBloc/timer_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">genIoBloc/timer_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">genIoBloc/timer_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">genIoBloc/timer_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">genIoBloc/oldMs</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">genIoBloc/alignFromSc</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">telescope</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">make_tel_b.alims/psPhaseHv_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">make_tel_b.alims/psPhaseHv_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">make_tel_b.alims/psPhaseHv_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">make_tel_b.alims/psPhaseHv_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">make_tel_b.alims/psPhaseHv_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">make_tel_b.alims/psPhaseHv_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">make_tel_b.alims/psPhaseHv_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">make_tel_b.alims/psPhaseHv_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">make_tel_b.alims/psPeriodHv_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">make_tel_b.alims/psPeriodHv_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">make_tel_b.alims/psPeriodHv_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">make_tel_b.alims/psPeriodHv_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">make_tel_b.alims/psPeriodHv_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">make_tel_b.alims/psPeriodHv_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">make_tel_b.alims/psPeriodHv_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">make_tel_b.alims/psPeriodHv_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">i2/waverFast/decimator_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">i2/waverFast/decimator_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ql1/waverFast/decimator_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ql1/waverFast/decimator_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">i1/waverFast/decimator_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">i1/waverFast/decimator_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">telescope</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">q3/blockNrj/formeur/falling/compteur_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">telescope</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;q3/blockFastNrj/formeur/falling/compteur_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">qh1/blockNrj/formeur/lateTimer</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">telescope</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;qh1/blockTrig/formeur/lateTimer&gt; &lt;q2/blockNrj/formeur/lateTimer&gt; &lt;q2/blockTrig/formeur/lateTimer&gt; &lt;q3/blockNrj/formeur/lateTimer&gt; &lt;q3/blockFastNrj/formeur/lateTimer&gt; &lt;q3/blockTrig/formeur/lateTimer&gt; &lt;make_tel_b.generateur/oldMicrosec&gt; &lt;trigger/oldMicrosec&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">genIoBloc/isoCnt_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">telescope</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;qh1/blockNrj/formeur/rising/compteur_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">qh1/blockNrj/formeur/rising/compteur_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">telescope</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;qh1/blockTrig/formeur/falling/compteur_1&gt; &lt;q2/blockNrj/formeur/rising/compteur_1&gt; &lt;q2/blockTrig/formeur/falling/compteur_1&gt; &lt;q3/blockNrj/formeur/falling/compteur_1&gt; &lt;q3/blockFastNrj/formeur/falling/compteur_1&gt; &lt;q3/blockTrig/formeur/falling/compteur_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">qh1/blockNrj/formeur/rising/compteur_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">telescope</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;qh1/blockTrig/formeur/falling/compteur_2&gt; &lt;q2/blockNrj/formeur/rising/compteur_2&gt; &lt;q2/blockTrig/formeur/falling/compteur_2&gt; &lt;q3/blockNrj/formeur/falling/compteur_2&gt; &lt;q3/blockFastNrj/formeur/falling/compteur_2&gt; &lt;q3/blockTrig/formeur/falling/compteur_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">qh1/blockNrj/formeur/rising/compteur_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">telescope</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;qh1/blockTrig/formeur/falling/compteur_3&gt; &lt;q2/blockNrj/formeur/rising/compteur_3&gt; &lt;q2/blockTrig/formeur/falling/compteur_3&gt; &lt;q3/blockNrj/formeur/falling/compteur_3&gt; &lt;q3/blockFastNrj/formeur/falling/compteur_3&gt; &lt;q3/blockTrig/formeur/falling/compteur_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">qh1/blockNrj/formeur/rising/compteur_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">telescope</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;qh1/blockTrig/formeur/falling/compteur_4&gt; &lt;q2/blockNrj/formeur/rising/compteur_4&gt; &lt;q2/blockTrig/formeur/falling/compteur_4&gt; &lt;q3/blockNrj/formeur/falling/compteur_4&gt; &lt;q3/blockFastNrj/formeur/falling/compteur_4&gt; &lt;q3/blockTrig/formeur/falling/compteur_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">qh1/blockNrj/formeur/rising/compteur_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">telescope</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;qh1/blockTrig/formeur/falling/compteur_5&gt; &lt;q2/blockNrj/formeur/rising/compteur_5&gt; &lt;q2/blockTrig/formeur/falling/compteur_5&gt; &lt;q3/blockNrj/formeur/falling/compteur_5&gt; &lt;q3/blockFastNrj/formeur/falling/compteur_5&gt; &lt;q3/blockTrig/formeur/falling/compteur_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">qh1/blockNrj/formeur/rising/compteur_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">telescope</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;qh1/blockTrig/formeur/falling/compteur_6&gt; &lt;q2/blockNrj/formeur/rising/compteur_6&gt; &lt;q2/blockTrig/formeur/falling/compteur_6&gt; &lt;q3/blockNrj/formeur/falling/compteur_6&gt; &lt;q3/blockFastNrj/formeur/falling/compteur_6&gt; &lt;q3/blockTrig/formeur/falling/compteur_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">qh1/blockNrj/formeur/rising/compteur_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">telescope</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;qh1/blockTrig/formeur/falling/compteur_7&gt; &lt;q2/blockNrj/formeur/rising/compteur_7&gt; &lt;q2/blockTrig/formeur/falling/compteur_7&gt; &lt;q3/blockNrj/formeur/falling/compteur_7&gt; &lt;q3/blockFastNrj/formeur/falling/compteur_7&gt; &lt;q3/blockTrig/formeur/falling/compteur_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">qh1/blockNrj/formeur/rising/compteur_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">telescope</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;qh1/blockTrig/formeur/falling/compteur_8&gt; &lt;q2/blockNrj/formeur/rising/compteur_8&gt; &lt;q2/blockTrig/formeur/falling/compteur_8&gt; &lt;q3/blockNrj/formeur/falling/compteur_8&gt; &lt;q3/blockFastNrj/formeur/falling/compteur_8&gt; &lt;q3/blockTrig/formeur/falling/compteur_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">qh1/blockNrj/formeur/rising/compteur_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">telescope</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;qh1/blockTrig/formeur/falling/compteur_9&gt; &lt;q2/blockNrj/formeur/rising/compteur_9&gt; &lt;q2/blockTrig/formeur/falling/compteur_9&gt; &lt;q3/blockNrj/formeur/falling/compteur_9&gt; &lt;q3/blockFastNrj/formeur/falling/compteur_9&gt; &lt;q3/blockTrig/formeur/falling/compteur_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">clk25Falling</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">telescope</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;fLink/clkgen_inst/clk25falling&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">qh1/blockNrj/formeur/postTimer_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">telescope</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;qh1/blockTrig/formeur/postTimer_0&gt; &lt;q2/blockNrj/formeur/postTimer_0&gt; &lt;q2/blockTrig/formeur/postTimer_0&gt; &lt;q3/blockNrj/formeur/postTimer_0&gt; &lt;q3/blockFastNrj/formeur/postTimer_0&gt; &lt;q3/blockTrig/formeur/postTimer_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">qh1/blockNrj/formeur/postTimer_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">telescope</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;qh1/blockTrig/formeur/postTimer_1&gt; &lt;q2/blockNrj/formeur/postTimer_1&gt; &lt;q2/blockTrig/formeur/postTimer_1&gt; &lt;q3/blockNrj/formeur/postTimer_1&gt; &lt;q3/blockFastNrj/formeur/postTimer_1&gt; &lt;q3/blockTrig/formeur/postTimer_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">qh1/blockNrj/formeur/postTimer_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">telescope</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;qh1/blockTrig/formeur/postTimer_2&gt; &lt;q2/blockNrj/formeur/postTimer_2&gt; &lt;q2/blockTrig/formeur/postTimer_2&gt; &lt;q3/blockNrj/formeur/postTimer_2&gt; &lt;q3/blockFastNrj/formeur/postTimer_2&gt; &lt;q3/blockTrig/formeur/postTimer_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">qh1/blockNrj/formeur/postTimer_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">telescope</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;qh1/blockTrig/formeur/postTimer_3&gt; &lt;q2/blockNrj/formeur/postTimer_3&gt; &lt;q2/blockTrig/formeur/postTimer_3&gt; &lt;q3/blockNrj/formeur/postTimer_3&gt; &lt;q3/blockFastNrj/formeur/postTimer_3&gt; &lt;q3/blockTrig/formeur/postTimer_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">qh1/blockHisto.monHisto/adbit0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">telescope</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;q2/blockHisto.monHisto/adbit0&gt; &lt;q3/blockHisto1.totHisto/adbit0&gt; &lt;q3/blockHisto2.fastHisto/adbit0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fLink/fifo2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1336" delta="old" > (*) More than 100% of Device resources are used
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

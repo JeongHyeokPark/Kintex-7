@@ -1,0 +1,536 @@
+Release 14.3 par P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+FAZIA::  Thu Apr 28 14:06:27 2022
+
+par -w -intstyle ise -ol high -mt 4 telescope_map.ncd telescope.ncd
+telescope.pcf 
+
+
+Constraints file: telescope.pcf.
+Loading device for application Rf_Device from file '7k160t.nph' in environment /opt/Xilinx/14.3/ISE_DS/ISE/.
+   "telescope" is an NCD, version 3.2, device xc7k160t, package ffg676, speed -2
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.970 Volts. (default - Range: 0.970 to 1.030 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.07 2012-10-12".
+
+
+
+Device Utilization Summary:
+
+Slice Logic Utilization:
+  Number of Slice Registers:                 5,061 out of 202,800    2%
+    Number used as Flip Flops:               4,957
+    Number used as Latches:                     47
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:               57
+  Number of Slice LUTs:                      7,585 out of 101,400    7%
+    Number used as logic:                    7,062 out of 101,400    6%
+      Number using O6 output only:           5,209
+      Number using O5 output only:             292
+      Number using O5 and O6:                1,561
+      Number used as ROM:                        0
+    Number used as Memory:                     408 out of  35,000    1%
+      Number used as Dual Port RAM:            400
+        Number using O6 output only:           336
+        Number using O5 output only:             0
+        Number using O5 and O6:                 64
+      Number used as Single Port RAM:            8
+        Number using O6 output only:             0
+        Number using O5 output only:             0
+        Number using O5 and O6:                  8
+      Number used as Shift Register:             0
+    Number used exclusively as route-thrus:    115
+      Number with same-slice register load:     88
+      Number with same-slice carry load:        27
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 2,982 out of  25,350   11%
+  Number of LUT Flip Flop pairs used:        8,650
+    Number with an unused Flip Flop:         3,958 out of   8,650   45%
+    Number with an unused LUT:               1,065 out of   8,650   12%
+    Number of fully used LUT-FF pairs:       3,627 out of   8,650   41%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of 202,800    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                       245 out of     400   61%
+    Number of LOCed IOBs:                      245 out of     245  100%
+    IOB Flip Flops:                             42
+    IOB Master Pads:                             7
+    IOB Slave Pads:                              7
+
+Specific Feature Utilization:
+  Number of RAMB36E1/FIFO36E1s:                 27 out of     325    8%
+    Number using RAMB36E1 only:                 27
+    Number using FIFO36E1 only:                  0
+  Number of RAMB18E1/FIFO18E1s:                 21 out of     650    3%
+    Number using RAMB18E1 only:                 21
+    Number using FIFO18E1 only:                  0
+  Number of BUFG/BUFGCTRLs:                      9 out of      32   28%
+    Number used as BUFGs:                        9
+    Number used as BUFGCTRLs:                    0
+  Number of IDELAYE2/IDELAYE2_FINEDELAYs:       51 out of     400   12%
+    Number used as IDELAYE2s:                   51
+    Number used as IDELAYE2_FINEDELAYs:          0
+  Number of ILOGICE2/ILOGICE3/ISERDESE2s:       45 out of     400   11%
+    Number used as ILOGICE2s:                   42
+  Number used as  ILOGICE3s:                     0
+    Number used as ISERDESE2s:                   3
+  Number of ODELAYE2/ODELAYE2_FINEDELAYs:        0 out of     150    0%
+  Number of OLOGICE2/OLOGICE3/OSERDESE2s:        7 out of     400    1%
+    Number used as OLOGICE2s:                    4
+    Number used as OLOGICE3s:                    0
+    Number used as OSERDESE2s:                   3
+  Number of PHASER_IN/PHASER_IN_PHYs:            0 out of      32    0%
+  Number of PHASER_OUT/PHASER_OUT_PHYs:          0 out of      32    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHCEs:                             0 out of     120    0%
+  Number of BUFRs:                               6 out of      32   18%
+  Number of CAPTUREs:                            0 out of       1    0%
+  Number of DNA_PORTs:                           0 out of       1    0%
+  Number of DSP48E1s:                            0 out of     600    0%
+  Number of EFUSE_USRs:                          0 out of       1    0%
+  Number of FRAME_ECCs:                          0 out of       1    0%
+  Number of GTXE2_CHANNELs:                      0 out of       8    0%
+  Number of GTXE2_COMMONs:                       0 out of       2    0%
+  Number of IBUFDS_GTE2s:                        0 out of       4    0%
+  Number of ICAPs:                               0 out of       2    0%
+  Number of IDELAYCTRLs:                         4 out of       8   50%
+  Number of IN_FIFOs:                            0 out of      32    0%
+  Number of MMCME2_ADVs:                         2 out of       8   25%
+  Number of OUT_FIFOs:                           0 out of      32    0%
+  Number of PCIE_2_1s:                           0 out of       1    0%
+  Number of PHASER_REFs:                         0 out of       8    0%
+  Number of PHY_CONTROLs:                        0 out of       8    0%
+  Number of PLLE2_ADVs:                          0 out of       8    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of XADCs:                               1 out of       1  100%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+PAR will use up to 4 processors
+WARNING:Par:288 - The signal ioFpga_9_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal riserv_n<7>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ioFpga_22_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ioFpga_10_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal fLink/fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal fLink/fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal fLink/fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram6_RAMD_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram8_RAMD_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal fLink/fifo3/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal fLink/fifo3/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RAMD_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram4_RAMD_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram5_RAMD_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram9_RAMD_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram7_RAMD_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram10_RAMD_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram10_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram17_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram11_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram9_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram13_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram15_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram20_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram12_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram14_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram16_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram18_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram19_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram6_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram7_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram5_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram8_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram4_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram20_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram18_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal i1/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal i1/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram19_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram17_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram18_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram4_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram14_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram19_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram17_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram20_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal adc_monitor/aligneur/memoireRam/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal adc_monitor/aligneur/memoireRam/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram4_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal adc_monitor/aligneur/memoireRam/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram9_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram13_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram16_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram15_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal i2/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ql1/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal i2/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal adc_monitor/aligneur/memoireRam/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram12_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram7_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram5_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram8_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ql1/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram11_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram4_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram13_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram10_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram15_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram14_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram16_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram6_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram11_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram10_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram9_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram12_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram7_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram5_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram8_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram6_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+Starting Multi-threaded Router
+
+
+Phase  1  : 51144 unrouted;      REAL time: 29 secs 
+
+Phase  2  : 42302 unrouted;      REAL time: 36 secs 
+
+Phase  3  : 16295 unrouted;      REAL time: 51 secs 
+
+Phase  4  : 16295 unrouted; (Setup:0, Hold:79118, Component Switching Limit:0)     REAL time: 59 secs 
+
+Updating file: telescope.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:75081, Component Switching Limit:0)     REAL time: 1 mins 12 secs 
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:75081, Component Switching Limit:0)     REAL time: 1 mins 12 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:75081, Component Switching Limit:0)     REAL time: 1 mins 12 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:75081, Component Switching Limit:0)     REAL time: 1 mins 12 secs 
+
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 18 secs 
+Total REAL time to Router completion: 1 mins 18 secs 
+Total CPU time to Router completion (all processors): 1 mins 53 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|     fLink/clk100MHz | BUFGCTRL_X0Y2| No   |   62 |  0.118     |  1.506      |
++---------------------+--------------+------+------+------------+-------------+
+|                 clk | BUFGCTRL_X0Y6| No   | 1598 |  0.544     |  1.748      |
++---------------------+--------------+------+------+------------+-------------+
+|          ql1/adcClk |  Regional Clk| No   |   51 |  0.175     |  0.747      |
++---------------------+--------------+------+------+------------+-------------+
+|          qh1/adcClk |  Regional Clk| No   |   47 |  0.114     |  0.747      |
++---------------------+--------------+------+------+------------+-------------+
+|            clk25MHz | BUFGCTRL_X0Y3| No   |   39 |  0.358     |  1.576      |
++---------------------+--------------+------+------+------------+-------------+
+|      ucSpiSck_BUFGP | BUFGCTRL_X0Y8| No   |   15 |  0.179     |  1.401      |
++---------------------+--------------+------+------+------------+-------------+
+|           q3/adcClk |  Regional Clk| No   |   47 |  0.127     |  0.745      |
++---------------------+--------------+------+------+------------+-------------+
+|      fLink/clk50MHz | BUFGCTRL_X0Y4| No   |   57 |  0.293     |  1.630      |
++---------------------+--------------+------+------+------------+-------------+
+|           i1/adcClk |  Regional Clk| No   |   50 |  0.124     |  0.745      |
++---------------------+--------------+------+------+------------+-------------+
+|           i2/adcClk |  Regional Clk| No   |   51 |  0.121     |  0.745      |
++---------------------+--------------+------+------+------------+-------------+
+|           q2/adcClk |  Regional Clk| No   |   47 |  0.171     |  0.747      |
++---------------------+--------------+------+------+------------+-------------+
+|     fLink/clk400MHz | BUFGCTRL_X0Y1| No   |    9 |  0.014     |  1.630      |
++---------------------+--------------+------+------+------------+-------------+
+|fLink/clkgen_inst/in |              |      |      |            |             |
+|st_the_pll/CLKFBIN_I |              |      |      |            |             |
+|                   N | BUFGCTRL_X0Y0| No   |    1 |  0.000     |  1.576      |
++---------------------+--------------+------+------+------------+-------------+
+|     fLink/clk200MHz | BUFGCTRL_X0Y7| No   |    4 |  0.344     |  1.457      |
++---------------------+--------------+------+------+------------+-------------+
+|     delDcm/CLKFB_IN | BUFGCTRL_X0Y5| No   |    1 |  0.000     |  1.748      |
++---------------------+--------------+------+------+------------+-------------+
+|           q3/itemWr |         Local|      |   80 |  0.792     |  1.312      |
++---------------------+--------------+------+------+------------+-------------+
+|rEngine/listenerCs[2 |              |      |      |            |             |
+|      ]_val_Mux_70_o |         Local|      |    3 |  0.083     |  0.406      |
++---------------------+--------------+------+------+------------+-------------+
+|rEngine/listenerCs[2 |              |      |      |            |             |
+|]_GND_573_o_Mux_54_o |              |      |      |            |             |
+|                     |         Local|      |    3 |  0.147     |  0.441      |
++---------------------+--------------+------+------+------------+-------------+
+|rEngine/listenerCs[2 |              |      |      |            |             |
+|]_GND_570_o_Mux_48_o |              |      |      |            |             |
+|                     |         Local|      |    1 |  0.000     |  0.207      |
++---------------------+--------------+------+------+------------+-------------+
+|genIoBloc/reset_GND_ |              |      |      |            |             |
+|      35_o_AND_110_o |         Local|      |    3 |  0.000     |  0.978      |
++---------------------+--------------+------+------+------------+-------------+
+|genIoBloc/reset_GND_ |              |      |      |            |             |
+|      35_o_AND_109_o |         Local|      |    3 |  0.000     |  0.830      |
++---------------------+--------------+------+------+------------+-------------+
+|rEngine/listenerCs[2 |              |      |      |            |             |
+|      ]_val_Mux_46_o |         Local|      |    1 |  0.000     |  0.207      |
++---------------------+--------------+------+------+------------+-------------+
+|rEngine/listenerCs[2 |              |      |      |            |             |
+|      ]_val_Mux_44_o |         Local|      |    1 |  0.000     |  0.236      |
++---------------------+--------------+------+------+------------+-------------+
+|rEngine/Mram__n13222 |              |      |      |            |             |
+|                     |         Local|      |    1 |  0.000     |  0.489      |
++---------------------+--------------+------+------+------------+-------------+
+|rEngine/listenerCs[2 |              |      |      |            |             |
+|]_GND_588_o_Mux_84_o |              |      |      |            |             |
+|                     |         Local|      |    1 |  0.000     |  0.375      |
++---------------------+--------------+------+------+------------+-------------+
+|rEngine/listenerCs[2 |              |      |      |            |             |
+|]_GND_589_o_Mux_86_o |              |      |      |            |             |
+|                     |         Local|      |    1 |  0.000     |  0.316      |
++---------------------+--------------+------+------+------------+-------------+
+|rEngine/listenerCs[2 |              |      |      |            |             |
+|]_PWR_259_o_Mux_88_o |              |      |      |            |             |
+|                     |         Local|      |    1 |  0.000     |  0.316      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Number of Timing Constraints that were not applied: 4
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  PERIOD analysis for net "fLink/clkgen_ins | MINPERIOD   |     1.775ns|     3.225ns|       0|           0
+  t/inst_the_pll/CLKOUT1_BUF" derived from  |             |            |            |        |            
+   NET "clk_25M_local" PERIOD = 40 ns HIGH  |             |            |            |        |            
+  50%                                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_ADC_250_CLK = PERIOD TIMEGRP "ADC_250_ | SETUP       |     0.339ns|     3.661ns|       0|           0
+  CLK" 4 ns HIGH 50% PRIORITY 1             | HOLD        |     0.004ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  PERIOD analysis for net "fLink/clkgen_ins | MINPERIOD   |     1.092ns|     1.408ns|       0|           0
+  t/inst_the_pll/CLKOUT2_BUF" derived from  |             |            |            |        |            
+   NET "clk_25M_local" PERIOD = 40 ns HIGH  |             |            |            |        |            
+  50%                                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "clk_local" PERIOD = 10 ns HIGH 50%   | SETUP       |     1.264ns|     8.736ns|       0|           0
+                                            | HOLD        |     0.001ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "qh1/ddr_16_1/inputClk" PERIOD = 10 n | SETUP       |     2.612ns|     4.776ns|       0|           0
+  s HIGH 50%                                | HOLD        |     0.062ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "q3/ddr_16_1/inputClk" PERIOD = 10 ns | SETUP       |     2.657ns|     4.686ns|       0|           0
+   HIGH 50%                                 | HOLD        |     0.032ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "q2/ddr_16_1/inputClk" PERIOD = 10 ns | SETUP       |     3.083ns|     3.889ns|       0|           0
+   HIGH 50%                                 | HOLD        |     0.048ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  PERIOD analysis for net "fLink/clkgen_ins | SETUP       |     3.218ns|    13.564ns|       0|           0
+  t/inst_the_pll/CLKOUT0_BUF" derived from  | HOLD        |     0.011ns|            |       0|           0
+   NET "clk_25M_local" PERIOD = 40 ns HIGH  |             |            |            |        |            
+  50%                                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  PERIOD analysis for net "fLink/clkgen_ins | SETUP       |     6.784ns|     3.216ns|       0|           0
+  t/inst_the_pll/CLKOUT3_BUF" derived from  | HOLD        |     0.074ns|            |       0|           0
+   NET "clk_25M_local" PERIOD = 40 ns HIGH  |             |            |            |        |            
+  50%                                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  PERIOD analysis for net "delDcm/CLK0_BUF" | MINPERIOD   |     8.592ns|     1.408ns|       0|           0
+   derived from  NET "clk_local" PERIOD = 1 |             |            |            |        |            
+  0 ns HIGH 50%                             |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "clk_25M_local" PERIOD = 40 ns HIGH 5 | SETUP       |    36.829ns|     3.171ns|       0|           0
+  0%                                        | HOLD        |     0.086ns|            |       0|           0
+                                            | MINLOWPULSE |    30.000ns|    10.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  PERIOD analysis for net "fLink/clkgen_ins | MINPERIOD   |    38.592ns|     1.408ns|       0|           0
+  t/inst_the_pll/CLKFBOUT_BUF" derived from |             |            |            |        |            
+    NET "clk_25M_local" PERIOD = 40 ns HIGH |             |            |            |        |            
+   50%                                      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for clk_25M_local
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|clk_25M_local                  |     40.000ns|     10.000ns|     27.128ns|            0|            0|         1309|         6073|
+| fLink/clkgen_inst/inst_the_pll|      5.000ns|      3.225ns|          N/A|            0|            0|            0|            0|
+| /CLKOUT1_BUF                  |             |             |             |             |             |             |             |
+| fLink/clkgen_inst/inst_the_pll|     20.000ns|     13.564ns|          N/A|            0|            0|         5275|            0|
+| /CLKOUT0_BUF                  |             |             |             |             |             |             |             |
+| fLink/clkgen_inst/inst_the_pll|     10.000ns|      3.216ns|          N/A|            0|            0|          798|            0|
+| /CLKOUT3_BUF                  |             |             |             |             |             |             |             |
+| fLink/clkgen_inst/inst_the_pll|      2.500ns|      1.408ns|          N/A|            0|            0|            0|            0|
+| /CLKOUT2_BUF                  |             |             |             |             |             |             |             |
+| fLink/clkgen_inst/inst_the_pll|     40.000ns|      1.408ns|          N/A|            0|            0|            0|            0|
+| /CLKFBOUT_BUF                 |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for clk_local
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|clk_local                      |     10.000ns|      8.736ns|      1.408ns|            0|            0|       923248|            0|
+| delDcm/CLK0_BUF               |     10.000ns|      1.408ns|          N/A|            0|            0|            0|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 89 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 1 mins 22 secs 
+Total CPU time to PAR completion (all processors): 1 mins 57 secs 
+
+Peak Memory Usage:  1642 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 91
+Number of info messages: 0
+
+Writing design to file telescope.ncd
+
+
+
+PAR done!

@@ -1,0 +1,19 @@
+# Output products list for <tel_ila_36>
+_xmsgs/pn_parser.xmsgs
+tel_ila_36.asy
+tel_ila_36.cdc
+tel_ila_36.constraints/tel_ila_36.ucf
+tel_ila_36.constraints/tel_ila_36.xdc
+tel_ila_36.gise
+tel_ila_36.ncf
+tel_ila_36.ngc
+tel_ila_36.sym
+tel_ila_36.ucf
+tel_ila_36.vhd
+tel_ila_36.vho
+tel_ila_36.xco
+tel_ila_36.xdc
+tel_ila_36.xise
+tel_ila_36_flist.txt
+tel_ila_36_readme.txt
+tel_ila_36_xmdf.tcl

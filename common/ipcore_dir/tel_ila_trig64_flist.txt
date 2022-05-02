@@ -1,0 +1,19 @@
+# Output products list for <tel_ila_trig64>
+_xmsgs/pn_parser.xmsgs
+tel_ila_trig64.asy
+tel_ila_trig64.cdc
+tel_ila_trig64.constraints/tel_ila_trig64.ucf
+tel_ila_trig64.constraints/tel_ila_trig64.xdc
+tel_ila_trig64.gise
+tel_ila_trig64.ncf
+tel_ila_trig64.ngc
+tel_ila_trig64.sym
+tel_ila_trig64.ucf
+tel_ila_trig64.vhd
+tel_ila_trig64.vho
+tel_ila_trig64.xco
+tel_ila_trig64.xdc
+tel_ila_trig64.xise
+tel_ila_trig64_flist.txt
+tel_ila_trig64_readme.txt
+tel_ila_trig64_xmdf.tcl

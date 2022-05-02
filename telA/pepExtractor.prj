@@ -1,0 +1,4 @@
+work	"../common/align_defs.vhd"
+work	"../common/ddr_adc.vhd"
+work	"../common/slow_ct_defs.vhd"
+work	"../common/tel_defs.vhd"

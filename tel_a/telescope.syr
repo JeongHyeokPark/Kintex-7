@@ -1,0 +1,620 @@
+Release 14.3 - xst P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Reading design: telescope.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "telescope.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "telescope"
+Output Format                      : NGC
+Target Device                      : xc7k160t-2-ffg676
+
+---- Source Options
+Top Module Name                    : telescope
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir" "../common/ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/fazia/Desktop/Kintex-7/tel_a/ipcore_dir/the_pll.v" into library work
+Parsing module <the_pll>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/aligner_ram_128x8.vhd" into library work
+Parsing entity <aligner_ram_128x8>.
+Parsing architecture <aligner_ram_128x8_a> of entity <aligner_ram_128x8>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_16x16.vhd" into library work
+Parsing entity <ram_16x16>.
+Parsing architecture <ram_16x16_a> of entity <ram_16x16>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_16x16_synth.vhd" into library work
+Parsing entity <ram_16x16>.
+Parsing architecture <kintex7> of entity <ram_16x16>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_32x16_single.vhd" into library work
+Parsing entity <ram_32x16_single>.
+Parsing architecture <ram_32x16_single_a> of entity <ram_32x16_single>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_32x16_single_synth.vhd" into library work
+Parsing entity <ram_32x16_single>.
+Parsing architecture <kintex7> of entity <ram_32x16_single>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_32x16.vhd" into library work
+Parsing entity <ram_32x16>.
+Parsing architecture <ram_32x16_a> of entity <ram_32x16>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_32x16_synth.vhd" into library work
+Parsing entity <ram_32x16>.
+Parsing architecture <kintex7> of entity <ram_32x16>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_64x16.vhd" into library work
+Parsing entity <ram_64x16>.
+Parsing architecture <ram_64x16_a> of entity <ram_64x16>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_64x16_synth.vhd" into library work
+Parsing entity <ram_64x16>.
+Parsing architecture <kintex7> of entity <ram_64x16>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_128x16.vhd" into library work
+Parsing entity <ram_128x16>.
+Parsing architecture <ram_128x16_a> of entity <ram_128x16>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_128x16_synth.vhd" into library work
+Parsing entity <ram_128x16>.
+Parsing architecture <kintex7> of entity <ram_128x16>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_256x16.vhd" into library work
+Parsing entity <ram_256x16>.
+Parsing architecture <ram_256x16_a> of entity <ram_256x16>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_1kx14.vhd" into library work
+Parsing entity <ram_1kx14>.
+Parsing architecture <ram_1kx14_a> of entity <ram_1kx14>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_4kx14.vhd" into library work
+Parsing entity <ram_4kx14>.
+Parsing architecture <ram_4kx14_a> of entity <ram_4kx14>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_8kx14.vhd" into library work
+Parsing entity <ram_8kx14>.
+Parsing architecture <ram_8kx14_a> of entity <ram_8kx14>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_1kx15.vhd" into library work
+Parsing entity <ram_1kx15>.
+Parsing architecture <ram_1kx15_a> of entity <ram_1kx15>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_2kx15.vhd" into library work
+Parsing entity <ram_2kx15>.
+Parsing architecture <ram_2kx15_a> of entity <ram_2kx15>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_256x14.vhd" into library work
+Parsing entity <ram_256x14>.
+Parsing architecture <ram_256x14_a> of entity <ram_256x14>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_1kx24.vhd" into library work
+Parsing entity <ram_1kx24>.
+Parsing architecture <ram_1kx24_a> of entity <ram_1kx24>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/myfifo.vhd" into library work
+Parsing entity <myfifo>.
+Parsing architecture <myfifo_a> of entity <myfifo>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/myfifo2.vhd" into library work
+Parsing entity <myfifo2>.
+Parsing architecture <myfifo2_a> of entity <myfifo2>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/slow_ct_defs.vhd" into library work
+Parsing package <slow_ct_defs>.
+Parsing package body <slow_ct_defs>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/tel_a/tel_conf_a.vhd" into library work
+Parsing package <telescope_conf>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/tel_defs.vhd" into library work
+Parsing package <tel_defs>.
+Parsing package body <tel_defs>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/retard_2.vhd" into library work
+Parsing entity <retard_2>.
+Parsing architecture <Behavioral> of entity <retard_2>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/retard_1.vhd" into library work
+Parsing entity <retard_1>.
+Parsing architecture <Behavioral> of entity <retard_1>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/fastlink/ISER8b.vhd" into library work
+Parsing entity <ISER8b>.
+Parsing architecture <Behavioral> of entity <iser8b>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/align_defs.vhd" into library work
+Parsing package <align_defs>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/usb_get_new.vhd" into library work
+Parsing entity <usbGet_new>.
+Parsing architecture <usbGetArch> of entity <usbget_new>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/shaper.vhd" into library work
+Parsing entity <shaper>.
+Parsing architecture <Behavioral> of entity <shaper>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/reader.vhd" into library work
+Parsing entity <reader>.
+Parsing architecture <Behavioral> of entity <reader>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/spi_adc_rom.vhd" into library work
+Parsing entity <spi_adc_rom>.
+Parsing architecture <spi_adc_rom_a> of entity <spi_adc_rom>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/aligner_rom_128x8.vhd" into library work
+Parsing entity <aligner_rom_128x8>.
+Parsing architecture <aligner_rom_128x8_a> of entity <aligner_rom_128x8>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/i2c_byte.vhd" into library work
+Parsing entity <i2c_byte>.
+Parsing architecture <Behavioral> of entity <i2c_byte>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/fastlink/OSER8B.vhd" into library work
+Parsing entity <OSER8B>.
+Parsing architecture <Behavioral> of entity <oser8b>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/fastlink/N_ISERDES8b_MsAllign.vhd" into library work
+Parsing entity <N_ISERDES8b_MsAllign>.
+Parsing architecture <Behavioral> of entity <n_iserdes8b_msallign>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/compteur.vhd" into library work
+Parsing entity <compteur>.
+Parsing architecture <Behavioral> of entity <compteur>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/baseline.vhd" into library work
+Parsing entity <baseline>.
+Parsing architecture <Behavioral> of entity <baseline>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/tel_a/micro_wire.vhd" into library work
+Parsing entity <MicroWire>.
+Parsing architecture <Behavioral> of entity <microwire>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/tel_a/ipcore_dir/micro_wire_rom.vhd" into library work
+Parsing entity <micro_wire_rom>.
+Parsing architecture <micro_wire_rom_a> of entity <micro_wire_rom>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/waver.vhd" into library work
+Parsing entity <Waver>.
+Parsing architecture <Behavioral> of entity <waver>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/usb_itf_new.vhd" into library work
+Parsing entity <usbItf_new>.
+Parsing architecture <usbItfArch> of entity <usbitf_new>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/sysmon.vhd" into library work
+Parsing entity <USERSYSMON>.
+Parsing architecture <toto> of entity <usersysmon>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/spi.vhd" into library work
+Parsing entity <SpiAdc>.
+Parsing architecture <Behavioral> of entity <spiadc>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/pic_itf.vhd" into library work
+Parsing entity <PicItf>.
+Parsing architecture <Behavioral> of entity <picitf>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/i2c_master.vhd" into library work
+Parsing entity <I2cMaster>.
+Parsing architecture <Behavioral> of entity <i2cmaster>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/histogrammer.vhd" into library work
+Parsing entity <Histogrammer>.
+Parsing architecture <Behavioral> of entity <histogrammer>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/fastlink/serialiseur.vhd" into library work
+Parsing entity <SERIALISEUR>.
+Parsing architecture <BEHAVIORAL> of entity <serialiseur>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/fastlink/deserialiseur.vhd" into library work
+Parsing entity <DESERIALISEUR>.
+Parsing architecture <BEHAVIORAL> of entity <deserialiseur>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/fastlink/clkgenerator.vhd" into library work
+Parsing entity <clkgenerator>.
+Parsing architecture <BEHAVIORAL> of entity <clkgenerator>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/e_trigger.vhd" into library work
+Parsing entity <ETrigger>.
+Parsing architecture <Behavioral> of entity <etrigger>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/energy.vhd" into library work
+Parsing entity <Energy>.
+Parsing architecture <Behavioral> of entity <energy>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ddr_adc.vhd" into library work
+Parsing entity <DDR_ADC>.
+Parsing architecture <Behavioral> of entity <ddr_adc>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/aligner_new.vhd" into library work
+Parsing entity <Aligner_new>.
+Parsing architecture <Behavioral> of entity <aligner_new>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/tel_b/psSyncGen.vhd" into library work
+Parsing entity <PsSyncGen>.
+Parsing architecture <Behavioral> of entity <pssyncgen>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/tel_b/gene.vhd" into library work
+Parsing entity <Gene>.
+Parsing architecture <Behavioral> of entity <gene>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/tel_a/virBlock.vhd" into library work
+Parsing entity <VirBlock>.
+Parsing architecture <virBlock_arch> of entity <virblock>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/tel_a/talk_to_lmk.vhd" into library work
+Parsing entity <TalkToLmk>.
+Parsing architecture <Behavioral> of entity <talktolmk>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/tel_a/global_trigger.vhd" into library work
+Parsing entity <GlobalTrigger>.
+Parsing architecture <Behavioral> of entity <globaltrigger>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/trigger.vhd" into library work
+Parsing entity <trigger>.
+Parsing architecture <Behavioral> of entity <trigger>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/terminator.vhd" into library work
+Parsing entity <Terminator>.
+Parsing architecture <Behavioral> of entity <terminator>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/tel_sysmon.vhd" into library work
+Parsing entity <SysMonitor>.
+Parsing architecture <behavioral> of entity <sysmonitor>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/s_channel.vhd" into library work
+Parsing entity <SlowChannel>.
+Parsing architecture <Behavioral> of entity <slowchannel>.
+WARNING:HDLCompiler:701 - "/home/fazia/Desktop/Kintex-7/common/s_channel.vhd" Line 212: Partially associated formal ddrout cannot have actual OPEN
+WARNING:HDLCompiler:701 - "/home/fazia/Desktop/Kintex-7/common/s_channel.vhd" Line 291: Partially associated formal streamout cannot have actual OPEN
+WARNING:HDLCompiler:701 - "/home/fazia/Desktop/Kintex-7/common/s_channel.vhd" Line 309: Partially associated formal streamout cannot have actual OPEN
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/scItf.vhd" into library work
+Parsing entity <ScItf>.
+Parsing architecture <Behavioral> of entity <scitf>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" into library work
+Parsing entity <ReadEngine>.
+Parsing architecture <Behavioral> of entity <readengine>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/offset_ctrl.vhd" into library work
+Parsing entity <OffsetCtrl>.
+Parsing architecture <Behavioral> of entity <offsetctrl>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/tel_a/dcm_200.vhd" into library work
+Parsing entity <dcm_200>.
+Parsing architecture <BEHAVIORAL> of entity <dcm_200>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/identity.vhd" into library work
+Parsing entity <identity>.
+Parsing architecture <Behavioral> of entity <identity>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/general_io.vhd" into library work
+Parsing entity <GeneralIo>.
+Parsing architecture <Behavioral> of entity <generalio>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/f_channel.vhd" into library work
+Parsing entity <FastChannel>.
+Parsing architecture <Behavioral> of entity <fastchannel>.
+WARNING:HDLCompiler:701 - "/home/fazia/Desktop/Kintex-7/common/f_channel.vhd" Line 147: Partially associated formal ddrout cannot have actual OPEN
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/fastlink/fastlink.vhd" into library work
+Parsing entity <FASTLINK>.
+Parsing architecture <BEHAVIORAL> of entity <fastlink>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/csi_channel.vhd" into library work
+Parsing entity <CsiChannel>.
+Parsing architecture <Behavioral> of entity <csichannel>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/comZone.vhd" into library work
+Parsing entity <comZone>.
+Parsing architecture <Behavioral> of entity <comzone>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/adc_mon.vhd" into library work
+Parsing entity <AdcMon>.
+Parsing architecture <Behavioral> of entity <adcmon>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/telescope.vhd" into library work
+Parsing entity <telescope>.
+Parsing architecture <telescope_arch> of entity <telescope>.
+WARNING:HDLCompiler:701 - "/home/fazia/Desktop/Kintex-7/common/telescope.vhd" Line 684: Partially associated formal rstport_n cannot have actual OPEN
+WARNING:HDLCompiler:701 - "/home/fazia/Desktop/Kintex-7/common/telescope.vhd" Line 687: Partially associated formal rstport_n cannot have actual OPEN
+WARNING:HDLCompiler:701 - "/home/fazia/Desktop/Kintex-7/common/telescope.vhd" Line 689: Partially associated formal rstport_n cannot have actual OPEN
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/aligner_ram_128x8_synth.vhd" into library work
+Parsing entity <aligner_ram_128x8>.
+Parsing architecture <kintex7> of entity <aligner_ram_128x8>.
+Parsing VHDL file "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_256x16_synth.vhd" into library work
+Parsing entity <ram_256x16>.
+Parsing architecture <virtex5> of entity <ram_256x16>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <telescope> (architecture <telescope_arch>) from library <work>.
+
+Elaborating entity <dcm_200> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <AdcMon> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <SpiAdc> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <spi_adc_rom> (architecture <>) from library <work>.
+
+Elaborating entity <Aligner_new> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <aligner_rom_128x8> (architecture <>) from library <work>.
+
+Elaborating entity <aligner_ram_128x8> (architecture <>) from library <work>.
+INFO:HDLCompiler:679 - "/home/fazia/Desktop/Kintex-7/common/aligner_new.vhd" Line 254. Case statement is complete. others clause is never selected
+
+Elaborating entity <comZone> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ram_32x16_single> (architecture <>) from library <work>.
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/comZone.vhd" Line 127: letterboxlocal should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/comZone.vhd" Line 135: readlate should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/comZone.vhd" Line 136: ramdataout should be on the sensitivity list of the process
+
+Elaborating entity <GeneralIo> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/general_io.vhd" Line 127: configreg should be on the sensitivity list of the process
+INFO:HDLCompiler:679 - "/home/fazia/Desktop/Kintex-7/common/general_io.vhd" Line 307. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:634 - "/home/fazia/Desktop/Kintex-7/common/general_io.vhd" Line 246: Net <regLoad.initConfig[15]> does not have a driver.
+
+Elaborating entity <SysMonitor> (architecture <behavioral>) with generics from library <work>.
+
+Elaborating entity <USERSYSMON> (architecture <toto>) from library <work>.
+INFO:HDLCompiler:679 - "/home/fazia/Desktop/Kintex-7/common/sysmon.vhd" Line 193. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:1127 - "/home/fazia/Desktop/Kintex-7/common/sysmon.vhd" Line 118: Assignment to den ignored, since the identifier is never used
+
+Elaborating entity <identity> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <SlowChannel> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <DDR_ADC> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/ddr_adc.vhd" Line 200: ddrq should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/ddr_adc.vhd" Line 203: sync should be on the sensitivity list of the process
+
+Elaborating entity <Waver> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:1127 - "/home/fazia/Desktop/Kintex-7/common/waver.vhd" Line 385: Assignment to dummy ignored, since the identifier is never used
+
+Elaborating entity <ram_1kx14> (architecture <ram_1kx14_a>) from library <work>.
+
+Elaborating entity <ram_4kx14> (architecture <ram_4kx14_a>) from library <work>.
+ERROR:HDLCompiler:432 - "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_4kx14.vhd" Line 46: Formal <ena> has no actual or default value.
+Netlist Waver(0,0,"0001000000000000","1000000000000000","1100100000000000",1024,4096,9)(Behavioral) remains a blackbox, due to errors in its contents
+
+Elaborating entity <Energy> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <shaper> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <retard_1> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <ram_1kx15> (architecture <>) from library <work>.
+
+Elaborating entity <retard_2> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <ram_1kx15> (architecture <ram_1kx15_a>) from library <work>.
+WARNING:HDLCompiler:758 - "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_1kx15.vhd" Line 43: Replacing existing netlist ram_1kx15()
+
+Elaborating entity <ETrigger> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <shaper> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <baseline> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ram_256x14> (architecture <ram_256x14_a>) from library <work>.
+INFO:HDLCompiler:679 - "/home/fazia/Desktop/Kintex-7/common/baseline.vhd" Line 207. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/fazia/Desktop/Kintex-7/common/baseline.vhd" Line 252. Case statement is complete. others clause is never selected
+
+Elaborating entity <Histogrammer> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <ram_1kx24> (architecture <>) from library <work>.
+WARNING:HDLCompiler:1127 - "/home/fazia/Desktop/Kintex-7/common/s_channel.vhd" Line 470: Assignment to status ignored, since the identifier is never used
+
+Elaborating entity <FastChannel> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <DDR_ADC> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/ddr_adc.vhd" Line 200: ddrq should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/ddr_adc.vhd" Line 203: sync should be on the sensitivity list of the process
+
+Elaborating entity <Waver> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:1127 - "/home/fazia/Desktop/Kintex-7/common/waver.vhd" Line 385: Assignment to dummy ignored, since the identifier is never used
+
+Elaborating entity <ram_8kx14> (architecture <ram_8kx14_a>) from library <work>.
+
+Elaborating entity <ram_32x16> (architecture <kintex7>) from library <work>.
+
+Elaborating entity <reader> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/reader.vhd" Line 167: jesuisb should be on the sensitivity list of the process
+WARNING:HDLCompiler:1127 - "/home/fazia/Desktop/Kintex-7/common/f_channel.vhd" Line 281: Assignment to phaser ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "/home/fazia/Desktop/Kintex-7/common/f_channel.vhd" Line 101: Net <mainStream[13]> does not have a driver.
+
+Elaborating entity <FastChannel> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <DDR_ADC> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Waver> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <reader> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <SlowChannel> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <DDR_ADC> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Waver> (architecture <Behavioral>) with generics from library <work>.
+ERROR:HDLCompiler:432 - "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_4kx14.vhd" Line 46: Formal <ena> has no actual or default value.
+Netlist Waver(1,0,"0001001100000000","1001000000000000","1100100110000000",1024,4096,9)(Behavioral) remains a blackbox, due to errors in its contents
+
+Elaborating entity <Energy> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <ETrigger> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Histogrammer> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <ram_1kx24> (architecture <>) from library <work>.
+WARNING:HDLCompiler:758 - "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_1kx24.vhd" Line 43: Replacing existing netlist ram_1kx24()
+WARNING:HDLCompiler:1127 - "/home/fazia/Desktop/Kintex-7/common/s_channel.vhd" Line 470: Assignment to status ignored, since the identifier is never used
+
+Elaborating entity <FastChannel> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <DDR_ADC> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/ddr_adc.vhd" Line 200: ddrq should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/ddr_adc.vhd" Line 203: sync should be on the sensitivity list of the process
+
+Elaborating entity <Waver> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:1127 - "/home/fazia/Desktop/Kintex-7/common/waver.vhd" Line 385: Assignment to dummy ignored, since the identifier is never used
+
+Elaborating entity <reader> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/reader.vhd" Line 167: jesuisb should be on the sensitivity list of the process
+WARNING:HDLCompiler:1127 - "/home/fazia/Desktop/Kintex-7/common/f_channel.vhd" Line 281: Assignment to phaser ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "/home/fazia/Desktop/Kintex-7/common/f_channel.vhd" Line 101: Net <mainStream[13]> does not have a driver.
+
+Elaborating entity <CsiChannel> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:1127 - "/home/fazia/Desktop/Kintex-7/common/csi_channel.vhd" Line 274: Assignment to etat ignored, since the identifier is never used
+
+Elaborating entity <DDR_ADC> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Waver> (architecture <Behavioral>) with generics from library <work>.
+ERROR:HDLCompiler:432 - "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_4kx14.vhd" Line 46: Formal <ena> has no actual or default value.
+Netlist Waver(2,0,"0001010100000000","1010000000000000","1100101010000000",1024,4096,14)(Behavioral) remains a blackbox, due to errors in its contents
+
+Elaborating entity <Energy> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <shaper> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <retard_2> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <ram_2kx15> (architecture <ram_2kx15_a>) from library <work>.
+
+Elaborating entity <Energy> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <ETrigger> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Histogrammer> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <ram_1kx24> (architecture <>) from library <work>.
+WARNING:HDLCompiler:758 - "/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_1kx24.vhd" Line 43: Replacing existing netlist ram_1kx24()
+
+Elaborating entity <Histogrammer> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <ram_1kx24> (architecture <>) from library <work>.
+WARNING:HDLCompiler:1127 - "/home/fazia/Desktop/Kintex-7/common/csi_channel.vhd" Line 736: Assignment to status ignored, since the identifier is never used
+
+Elaborating entity <Terminator> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ReadEngine> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <ram_128x16> (architecture <kintex7>) from library <work>.
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 606: val should be on the sensitivity list of the process
+INFO:HDLCompiler:679 - "/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 678. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:1127 - "/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 635: Assignment to triggerpattern ignored, since the identifier is never used
+INFO:HDLCompiler:679 - "/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 1020. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 1086: fifoout should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 1089: telid should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 1093: fifoout should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 1097: fifoout should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 1101: fifoout should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 1105: datain should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 1109: fifoout should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 1120: lengthcnter should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 1123: crcresult should be on the sensitivity list of the process
+
+Elaborating entity <FASTLINK> (architecture <BEHAVIORAL>) with generics from library <work>.
+
+Elaborating entity <clkgenerator> (architecture <BEHAVIORAL>) from library <work>.
+Going to verilog side to elaborate module the_pll
+
+Elaborating module <the_pll>.
+
+Elaborating module <BUFG>.
+
+Elaborating module <PLL_ADV(BANDWIDTH="OPTIMIZED",CLKIN1_PERIOD=40.0,CLKIN2_PERIOD=10.0,CLKOUT0_DIVIDE=16,CLKOUT1_DIVIDE=4,CLKOUT2_DIVIDE=2,CLKOUT3_DIVIDE=8,CLKOUT0_PHASE=0.0,CLKOUT1_PHASE=0.0,CLKOUT2_PHASE=0.0,CLKOUT3_PHASE=0.0,CLKOUT0_DUTY_CYCLE=0.5,CLKOUT1_DUTY_CYCLE=0.5,CLKOUT2_DUTY_CYCLE=0.5,CLKOUT3_DUTY_CYCLE=0.5,COMPENSATION="SYSTEM_SYNCHRONOUS",DIVCLK_DIVIDE=1,CLKFBOUT_MULT=32,CLKFBOUT_PHASE=0.0,REF_JITTER=0.0)>.
+Back to vhdl to continue elaboration
+
+Elaborating entity <DESERIALISEUR> (architecture <BEHAVIORAL>) with generics from library <work>.
+
+Elaborating entity <N_ISERDES8b_MsAllign> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <ISER8b> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:1127 - "/home/fazia/Desktop/Kintex-7/common/fastlink/N_ISERDES8b_MsAllign.vhd" Line 143: Assignment to mylisten ignored, since the identifier is never used
+
+Elaborating entity <SERIALISEUR> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <OSER8B> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <myfifo> (architecture <myfifo_a>) from library <work>.
+
+Elaborating entity <myfifo2> (architecture <myfifo2_a>) from library <work>.
+WARNING:HDLCompiler:1127 - "/home/fazia/Desktop/Kintex-7/common/fastlink/fastlink.vhd" Line 492: Assignment to msb_sync ignored, since the identifier is never used
+
+Elaborating entity <trigger> (architecture <Behavioral>) with generics from library <work>.
+INFO:HDLCompiler:679 - "/home/fazia/Desktop/Kintex-7/common/trigger.vhd" Line 343. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/fazia/Desktop/Kintex-7/common/trigger.vhd" Line 347. Case statement is complete. others clause is never selected
+
+Elaborating entity <OffsetCtrl> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:1127 - "/home/fazia/Desktop/Kintex-7/common/offset_ctrl.vhd" Line 78: Assignment to dummy ignored, since the identifier is never used
+
+Elaborating entity <I2cMaster> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <i2c_byte> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <TalkToLmk> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <MicroWire> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <compteur> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <compteur> (architecture <Behavioral>) with generics from library <work>.
+INFO:HDLCompiler:679 - "/home/fazia/Desktop/Kintex-7/tel_a/micro_wire.vhd" Line 188. Case statement is complete. others clause is never selected
+
+Elaborating entity <micro_wire_rom> (architecture <>) from library <work>.
+
+Elaborating entity <compteur> (architecture <Behavioral>) with generics from library <work>.
+INFO:HDLCompiler:679 - "/home/fazia/Desktop/Kintex-7/tel_a/talk_to_lmk.vhd" Line 214. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/fazia/Desktop/Kintex-7/tel_a/talk_to_lmk.vhd" Line 246. Case statement is complete. others clause is never selected
+
+Elaborating entity <ScItf> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <usbItf_new> (architecture <usbItfArch>) from library <work>.
+
+Elaborating entity <usbGet_new> (architecture <usbGetArch>) from library <work>.
+
+Elaborating entity <PicItf> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <GlobalTrigger> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <VirBlock> (architecture <virBlock_arch>) from library <work>.
+WARNING:HDLCompiler:634 - "/home/fazia/Desktop/Kintex-7/common/telescope.vhd" Line 371: Net <slowCtBusRdPs[15]> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/fazia/Desktop/Kintex-7/common/telescope.vhd" Line 373: Net <slowCtBusRdGene[15]> does not have a driver.
+--> 
+
+
+Total memory usage is 407616 kilobytes
+
+Number of errors   :    3 (   0 filtered)
+Number of warnings :   51 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

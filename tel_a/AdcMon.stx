@@ -1,0 +1,105 @@
+Release 14.3 - xst P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/parallels/Desktop/newCode/Kintex-7/tel_a/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/parallels/Desktop/newCode/Kintex-7/tel_a/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: AdcMon.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/aligner_ram_128x8.vhd" into library work
+Parsing entity <aligner_ram_128x8>.
+Parsing architecture <aligner_ram_128x8_a> of entity <aligner_ram_128x8>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/slow_ct_defs.vhd" into library work
+Parsing package <slow_ct_defs>.
+Parsing package body <slow_ct_defs>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/tel_defs.vhd" into library work
+Parsing package <tel_defs>.
+Parsing package body <tel_defs>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/spi_adc_rom.vhd" into library work
+Parsing entity <spi_adc_rom>.
+Parsing architecture <spi_adc_rom_a> of entity <spi_adc_rom>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/aligner_rom_128x8.vhd" into library work
+Parsing entity <aligner_rom_128x8>.
+Parsing architecture <aligner_rom_128x8_a> of entity <aligner_rom_128x8>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/align_defs.vhd" into library work
+Parsing package <align_defs>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/spi.vhd" into library work
+Parsing entity <SpiAdc>.
+Parsing architecture <Behavioral> of entity <spiadc>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/aligner_new.vhd" into library work
+Parsing entity <Aligner_new>.
+Parsing architecture <Behavioral> of entity <aligner_new>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/adc_mon.vhd" into library work
+Parsing entity <AdcMon>.
+Parsing architecture <Behavioral> of entity <adcmon>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_64x16_synth.vhd" into library work
+Parsing entity <ram_64x16>.
+Parsing architecture <kintex7> of entity <ram_64x16>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_32x16_synth.vhd" into library work
+Parsing entity <ram_32x16>.
+Parsing architecture <kintex7> of entity <ram_32x16>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_256x16_synth.vhd" into library work
+Parsing entity <ram_256x16>.
+Parsing architecture <virtex5> of entity <ram_256x16>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_16x16_synth.vhd" into library work
+Parsing entity <ram_16x16>.
+Parsing architecture <kintex7> of entity <ram_16x16>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_128x16_synth.vhd" into library work
+Parsing entity <ram_128x16>.
+Parsing architecture <kintex7> of entity <ram_128x16>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/aligner_ram_128x8_synth.vhd" into library work
+Parsing entity <aligner_ram_128x8>.
+Parsing architecture <kintex7> of entity <aligner_ram_128x8>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_32x16_single_synth.vhd" into library work
+Parsing entity <ram_32x16_single>.
+Parsing architecture <kintex7> of entity <ram_32x16_single>.
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.11 secs
+ 
+--> 
+
+
+Total memory usage is 341304 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,126 @@
+Release 14.3 - xst P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/parallels/Desktop/newCode/Kintex-7/tel_a/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/parallels/Desktop/newCode/Kintex-7/tel_a/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: SlowChannel.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_16x16.vhd" into library work
+Parsing entity <ram_16x16>.
+Parsing architecture <ram_16x16_a> of entity <ram_16x16>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_16x16_synth.vhd" into library work
+Parsing entity <ram_16x16>.
+Parsing architecture <kintex7> of entity <ram_16x16>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_32x16.vhd" into library work
+Parsing entity <ram_32x16>.
+Parsing architecture <ram_32x16_a> of entity <ram_32x16>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_32x16_synth.vhd" into library work
+Parsing entity <ram_32x16>.
+Parsing architecture <kintex7> of entity <ram_32x16>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_64x16_synth.vhd" into library work
+Parsing entity <ram_64x16>.
+Parsing architecture <kintex7> of entity <ram_64x16>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_64x16.vhd" into library work
+Parsing entity <ram_64x16>.
+Parsing architecture <ram_64x16_a> of entity <ram_64x16>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_128x16.vhd" into library work
+Parsing entity <ram_128x16>.
+Parsing architecture <ram_128x16_a> of entity <ram_128x16>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_128x16_synth.vhd" into library work
+Parsing entity <ram_128x16>.
+Parsing architecture <kintex7> of entity <ram_128x16>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_256x16.vhd" into library work
+Parsing entity <ram_256x16>.
+Parsing architecture <ram_256x16_a> of entity <ram_256x16>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_1kx14.vhd" into library work
+Parsing entity <ram_1kx14>.
+Parsing architecture <ram_1kx14_a> of entity <ram_1kx14>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_4kx14.vhd" into library work
+Parsing entity <ram_4kx14>.
+Parsing architecture <ram_4kx14_a> of entity <ram_4kx14>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_8kx14.vhd" into library work
+Parsing entity <ram_8kx14>.
+Parsing architecture <ram_8kx14_a> of entity <ram_8kx14>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_1kx15.vhd" into library work
+Parsing entity <ram_1kx15>.
+Parsing architecture <ram_1kx15_a> of entity <ram_1kx15>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_2kx15.vhd" into library work
+Parsing entity <ram_2kx15>.
+Parsing architecture <ram_2kx15_a> of entity <ram_2kx15>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_256x14.vhd" into library work
+Parsing entity <ram_256x14>.
+Parsing architecture <ram_256x14_a> of entity <ram_256x14>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/ram_1kx24.vhd" into library work
+Parsing entity <ram_1kx24>.
+Parsing architecture <ram_1kx24_a> of entity <ram_1kx24>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/slow_ct_defs.vhd" into library work
+Parsing package <slow_ct_defs>.
+Parsing package body <slow_ct_defs>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/tel_a/tel_conf_a.vhd" into library work
+Parsing package <telescope_conf>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/tel_defs.vhd" into library work
+Parsing package <tel_defs>.
+Parsing package body <tel_defs>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/retard_2.vhd" into library work
+Parsing entity <retard_2>.
+Parsing architecture <Behavioral> of entity <retard_2>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/retard_1.vhd" into library work
+Parsing entity <retard_1>.
+Parsing architecture <Behavioral> of entity <retard_1>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/tel_ila.vhd" into library work
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/ipcore_dir/tel_icon.vhd" into library work
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/align_defs.vhd" into library work
+Parsing package <align_defs>.
+Parsing VHDL file "/home/parallels/Desktop/newCode/Kintex-7/common/shaper.vhd" into library work
+Parsing entity <shaper>.
+Parsing architecture <Behavioral> of entity <shaper>.
+ERROR:HDLCompiler:1731 - "/home/parallels/Desktop/newCode/Kintex-7/common/shaper.vhd" Line 96: found '0' definitions of operator "-", cannot determine exact overloaded matching definition for "-"
+ERROR:HDLCompiler:1731 - "/home/parallels/Desktop/newCode/Kintex-7/common/shaper.vhd" Line 112: found '0' definitions of operator "+", cannot determine exact overloaded matching definition for "+"
+ERROR:HDLCompiler:854 - "/home/parallels/Desktop/newCode/Kintex-7/common/shaper.vhd" Line 51: Unit <behavioral> ignored due to previous errors.
+VHDL file /home/parallels/Desktop/newCode/Kintex-7/common/shaper.vhd ignored due to errors
+--> 
+
+
+Total memory usage is 342788 kilobytes
+
+Number of errors   :    3 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

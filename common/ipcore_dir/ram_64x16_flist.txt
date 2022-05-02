@@ -1,0 +1,15 @@
+# Output products list for <ram_64x16>
+_xmsgs/pn_parser.xmsgs
+ram_64x16/dist_mem_gen_v7_2_readme.txt
+ram_64x16/doc/dist_mem_gen_v7_2_vinfo.html
+ram_64x16/doc/pg063-dist-mem-gen.pdf
+ram_64x16.asy
+ram_64x16.gise
+ram_64x16.ngc
+ram_64x16.vhd
+ram_64x16.vho
+ram_64x16.xco
+ram_64x16.xise
+ram_64x16_flist.txt
+ram_64x16_synth.vhd
+ram_64x16_xmdf.tcl

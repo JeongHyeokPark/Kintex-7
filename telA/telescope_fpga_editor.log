@@ -1,0 +1,50 @@
+#:C9     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   SPARC M2.1 P.40xd
+#Current Working Directory:
+#:D   /home/fazia/Desktop/debug_fazia_code_roms/telA
+#Host Name:
+#:H   FAZIA
+#Date/Time:
+#:T   Sat Apr 23 23:52:35 2022
+#------------------------------
+	#Reading telescope.ncd...
+	#Loading device for application Rf_Device from file '7k160t.nph' in environment /opt/Xilinx/14.3/ISE_DS/ISE/.
+	#   "telescope" is an NCD, version 3.2, device xc7k160t, package ffg676, speed -2
+	#Design creation date: 2022.04.23.14.46.21
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+select -k net 'i1/ddr_16_1/pddrQ<0>'
+	#3
+unselect -all
+	#4
+select comp 'i1/ddr_16_1/ddrQ_6'
+	#comp "i1/ddr_16_1/ddrQ_6",  site "SLICE_X100Y33",  type = SLICEL  (RPM grid X269Y66)
+	#5
+unselect -all
+	#6
+select comp 'i1/ddr_16_1/ddrQ_6'
+	#comp "i1/ddr_16_1/ddrQ_6",  site "SLICE_X100Y33",  type = SLICEL  (RPM grid X269Y66)
+	#7
+post block
+	#8
+unselect comp 'i1/ddr_16_1/ddrQ_6'
+	#9
+select -k net 'i1/ddr_16_1/ddrQ_4'
+	#10
+delay
+	#Building the delay mediator...
+	#Hint: to automatically load delays when design is loaded, setattr main auto_load_delays true
+	#Net "i1/ddr_16_1/ddrQ_4":
+	#    0.765ns - comp.pin "i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram.DIADI4", site.pin "RAMB18_X4Y13.DIADI4"
+	#    0.569ns - comp.pin "i1/waverFast/dataDecim<7>.AX", site.pin "SLICE_X85Y34.AX"
+	#     driver - comp.pin "i1/ddr_16_1/ddrQ_6.CQ", site.pin "SLICE_X100Y33.CQ"
+	#11
+unselect -all
+	#12
+select comp 'i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram'
+	#comp "i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram",  site "RAMB18_X4Y13",  type = RAMB18E1  (RPM grid X214Y61)

@@ -1,0 +1,26 @@
+; Mémoire d'initialisation des ADC
+; 32 bits par transaction, protocole identique à celui du slow control
+; 31..16 = adresse  15..0 = data
+; pour chaque LTC, reg 0 : reset, reg 4 : Two's Complement
+; bit-31 = 1 --> sentinelle
+
+memory_initialization_radix = 16;
+memory_initialization_vector =
+08000080,
+08010000,
+08020000,
+08030001,
+08040001,
+0B000080,
+0B010000,
+0B020000,
+0B030001,
+0B040001,
+0D000080,
+0D010000,
+0D020000,
+0D030001,
+0D040001,
+80000000;
+
+

@@ -1,0 +1,15 @@
+# Output products list for <ram_32x16_single>
+ram_32x16_single/dist_mem_gen_v7_2_readme.txt
+ram_32x16_single/doc/dist_mem_gen_v7_2_vinfo.html
+ram_32x16_single/doc/pg063-dist-mem-gen.pdf
+ram_32x16_single.asy
+ram_32x16_single.gise
+ram_32x16_single.ngc
+ram_32x16_single.sym
+ram_32x16_single.vhd
+ram_32x16_single.vho
+ram_32x16_single.xco
+ram_32x16_single.xise
+ram_32x16_single_flist.txt
+ram_32x16_single_synth.vhd
+ram_32x16_single_xmdf.tcl

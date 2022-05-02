@@ -1,0 +1,15 @@
+# Output products list for <aligner_rom_128x8>
+aligner_rom_128x8/dist_mem_gen_v7_2_readme.txt
+aligner_rom_128x8/doc/dist_mem_gen_v7_2_vinfo.html
+aligner_rom_128x8/doc/pg063-dist-mem-gen.pdf
+aligner_rom_128x8.asy
+aligner_rom_128x8.gise
+aligner_rom_128x8.ngc
+aligner_rom_128x8.sym
+aligner_rom_128x8.vhd
+aligner_rom_128x8.vho
+aligner_rom_128x8.xco
+aligner_rom_128x8.xise
+aligner_rom_128x8_flist.txt
+aligner_rom_128x8_synth.vhd
+aligner_rom_128x8_xmdf.tcl

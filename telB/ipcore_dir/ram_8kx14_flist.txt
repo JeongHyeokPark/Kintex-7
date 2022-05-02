@@ -1,0 +1,16 @@
+# Output products list for <ram_8kx14>
+_xmsgs/pn_parser.xmsgs
+ram_8kx14/blk_mem_gen_v7_3_readme.txt
+ram_8kx14/doc/blk_mem_gen_v7_3_vinfo.html
+ram_8kx14/doc/pg058-blk-mem-gen.pdf
+ram_8kx14.asy
+ram_8kx14.gise
+ram_8kx14.ngc
+ram_8kx14.sym
+ram_8kx14.vhd
+ram_8kx14.vho
+ram_8kx14.xco
+ram_8kx14.xise
+ram_8kx14_flist.txt
+ram_8kx14_xmdf.tcl
+summary.log

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;PERIOD = 10 ns HIGH 50 % |&gt; [/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf(18)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;PERIOD = 40 ns HIGH 50 % |&gt; [/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf(20)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;PERIOD = 10 ns HIGH 50 %;&gt; [/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf(124)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;PERIOD = 10 ns HIGH 50 %;&gt; [/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf(145)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;PERIOD = 10 ns HIGH 50 %;&gt; [/home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf(201)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="488" delta="old" >Attribute value &quot;<arg fmt="%s" index="1">CLKFBOUT</arg>&quot; is not an accepted value for attribute &quot;<arg fmt="%s" index="2">CLK_FEEDBACK</arg>&quot; on &quot;<arg fmt="%s" index="3">fLink/clkgen_inst/inst_the_pll/PLL_ADV_INST</arg>&quot;.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">free_p</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">free_n</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">aVersB_1</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">aVersB_2</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">riserv_n&lt;7&gt;</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">ioFpga_11</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">ioFpga_13</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">ioFpga_19</arg>&apos; has no legal driver
+</msg>
+
+</messages>
+

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="701" delta="old" >"/home/fazia/Desktop/Kintex-7/common/s_channel.vhd" Line 212: Partially associated formal <arg fmt="%s" index="1">ddrout</arg> cannot have actual OPEN
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="701" delta="old" >"/home/fazia/Desktop/Kintex-7/common/s_channel.vhd" Line 291: Partially associated formal <arg fmt="%s" index="1">streamout</arg> cannot have actual OPEN
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="701" delta="old" >"/home/fazia/Desktop/Kintex-7/common/s_channel.vhd" Line 309: Partially associated formal <arg fmt="%s" index="1">streamout</arg> cannot have actual OPEN
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="701" delta="old" >"/home/fazia/Desktop/Kintex-7/common/f_channel.vhd" Line 147: Partially associated formal <arg fmt="%s" index="1">ddrout</arg> cannot have actual OPEN
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="701" delta="old" >"/home/fazia/Desktop/Kintex-7/common/telescope.vhd" Line 684: Partially associated formal <arg fmt="%s" index="1">rstport_n</arg> cannot have actual OPEN
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="701" delta="old" >"/home/fazia/Desktop/Kintex-7/common/telescope.vhd" Line 687: Partially associated formal <arg fmt="%s" index="1">rstport_n</arg> cannot have actual OPEN
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="701" delta="old" >"/home/fazia/Desktop/Kintex-7/common/telescope.vhd" Line 689: Partially associated formal <arg fmt="%s" index="1">rstport_n</arg> cannot have actual OPEN
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/comZone.vhd" Line 127: <arg fmt="%s" index="1">letterboxlocal</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/comZone.vhd" Line 135: <arg fmt="%s" index="1">readlate</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/comZone.vhd" Line 136: <arg fmt="%s" index="1">ramdataout</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/general_io.vhd" Line 127: <arg fmt="%s" index="1">configreg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/fazia/Desktop/Kintex-7/common/general_io.vhd" Line 246: Net &lt;<arg fmt="%s" index="1">regLoad.initConfig[15]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/Kintex-7/common/sysmon.vhd" Line 118: Assignment to <arg fmt="%s" index="1">den</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/ddr_adc.vhd" Line 200: <arg fmt="%s" index="1">ddrq</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/ddr_adc.vhd" Line 203: <arg fmt="%s" index="1">sync</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/Kintex-7/common/waver.vhd" Line 385: Assignment to <arg fmt="%s" index="1">dummy</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="error" file="HDLCompiler" num="432" delta="old" >"/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_4kx14.vhd" Line 46: Formal &lt;<arg fmt="%s" index="1">ena</arg>&gt; has no actual or default value.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="758" delta="old" >"/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_1kx15.vhd" Line 43: Replacing existing netlist <arg fmt="%s" index="1">ram_1kx15</arg>(<arg fmt="%s" index="2"></arg>)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/Kintex-7/common/s_channel.vhd" Line 470: Assignment to <arg fmt="%s" index="1">status</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/ddr_adc.vhd" Line 200: <arg fmt="%s" index="1">ddrq</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/ddr_adc.vhd" Line 203: <arg fmt="%s" index="1">sync</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/Kintex-7/common/waver.vhd" Line 385: Assignment to <arg fmt="%s" index="1">dummy</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/reader.vhd" Line 167: <arg fmt="%s" index="1">jesuisb</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/Kintex-7/common/f_channel.vhd" Line 281: Assignment to <arg fmt="%s" index="1">phaser</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/fazia/Desktop/Kintex-7/common/f_channel.vhd" Line 101: Net &lt;<arg fmt="%s" index="1">mainStream[13]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="432" delta="old" >"/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_4kx14.vhd" Line 46: Formal &lt;<arg fmt="%s" index="1">ena</arg>&gt; has no actual or default value.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="758" delta="old" >"/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_1kx24.vhd" Line 43: Replacing existing netlist <arg fmt="%s" index="1">ram_1kx24</arg>(<arg fmt="%s" index="2"></arg>)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/Kintex-7/common/s_channel.vhd" Line 470: Assignment to <arg fmt="%s" index="1">status</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/ddr_adc.vhd" Line 200: <arg fmt="%s" index="1">ddrq</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/ddr_adc.vhd" Line 203: <arg fmt="%s" index="1">sync</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/Kintex-7/common/waver.vhd" Line 385: Assignment to <arg fmt="%s" index="1">dummy</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/reader.vhd" Line 167: <arg fmt="%s" index="1">jesuisb</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/Kintex-7/common/f_channel.vhd" Line 281: Assignment to <arg fmt="%s" index="1">phaser</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/fazia/Desktop/Kintex-7/common/f_channel.vhd" Line 101: Net &lt;<arg fmt="%s" index="1">mainStream[13]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/Kintex-7/common/csi_channel.vhd" Line 274: Assignment to <arg fmt="%s" index="1">etat</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="error" file="HDLCompiler" num="432" delta="old" >"/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_4kx14.vhd" Line 46: Formal &lt;<arg fmt="%s" index="1">ena</arg>&gt; has no actual or default value.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="758" delta="old" >"/home/fazia/Desktop/Kintex-7/common/ipcore_dir/ram_1kx24.vhd" Line 43: Replacing existing netlist <arg fmt="%s" index="1">ram_1kx24</arg>(<arg fmt="%s" index="2"></arg>)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/Kintex-7/common/csi_channel.vhd" Line 736: Assignment to <arg fmt="%s" index="1">status</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 606: <arg fmt="%s" index="1">val</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 635: Assignment to <arg fmt="%s" index="1">triggerpattern</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 1086: <arg fmt="%s" index="1">fifoout</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 1089: <arg fmt="%s" index="1">telid</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 1093: <arg fmt="%s" index="1">fifoout</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 1097: <arg fmt="%s" index="1">fifoout</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 1101: <arg fmt="%s" index="1">fifoout</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 1105: <arg fmt="%s" index="1">datain</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 1109: <arg fmt="%s" index="1">fifoout</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 1120: <arg fmt="%s" index="1">lengthcnter</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/fazia/Desktop/Kintex-7/common/read_engine_new.vhd" Line 1123: <arg fmt="%s" index="1">crcresult</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/Kintex-7/common/fastlink/N_ISERDES8b_MsAllign.vhd" Line 143: Assignment to <arg fmt="%s" index="1">mylisten</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/Kintex-7/common/fastlink/fastlink.vhd" Line 492: Assignment to <arg fmt="%s" index="1">msb_sync</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/fazia/Desktop/Kintex-7/common/offset_ctrl.vhd" Line 78: Assignment to <arg fmt="%s" index="1">dummy</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/fazia/Desktop/Kintex-7/common/telescope.vhd" Line 371: Net &lt;<arg fmt="%s" index="1">slowCtBusRdPs[15]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/fazia/Desktop/Kintex-7/common/telescope.vhd" Line 373: Net &lt;<arg fmt="%s" index="1">slowCtBusRdGene[15]</arg>&gt; does not have a driver.
+</msg>
+
+</messages>
+

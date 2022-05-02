@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ../common/slow_ct_defs.vhd -lib work ../common/tel_defs.vhd -lib work ../common/align_defs.vhd -lib work ../common/ddr_adc.vhd -prj telA -o DDR_ADC.spl -module DDR_ADC -template /opt/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 DDR_ADC.spl /home/fazia/Desktop/debug_fazia_code_roms/telA/DDR_ADC.sym 

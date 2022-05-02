@@ -1,0 +1,12 @@
+# Output products list for <My_sysmon>
+My_sysmon/doc/ug772_xadc_wiz.pdf
+My_sysmon/doc/xadc_wiz_v2_1_readme.txt
+My_sysmon/doc/xadc_wiz_v2_1_vinfo.html
+My_sysmon/xadc_wiz_v2_1_readme.txt
+My_sysmon.asy
+My_sysmon.gise
+My_sysmon.sym
+My_sysmon.xco
+My_sysmon.xise
+My_sysmon_flist.txt
+My_sysmon_xmdf.tcl

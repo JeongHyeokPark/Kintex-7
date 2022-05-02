@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Bitgen" num="40" delta="old" >Replacing &quot;<arg fmt="%s" index="1">Auto</arg>&quot; with &quot;<arg fmt="%s" index="2">NoWait</arg>&quot; for option &quot;<arg fmt="%s" index="3">Match_cycle</arg>&quot;.  Most commonly, bitgen has determined and will use a specific value instead of the generic command-line value of &quot;Auto&quot;.  Alternately, this message appears if the same option is specified multiple times on the command-line.  In this case, the option listed last will be used.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">q3/itemWr</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">make_tel_b.alims/reset_psPeriod[5]_AND_573_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">genIoBloc/reset_GND_35_o_AND_109_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">genIoBloc/reset_GND_35_o_AND_110_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">make_tel_b.alims/reset_psPeriod[7]_AND_569_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">rEngine/listenerCs[2]_val_Mux_70_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">make_tel_b.alims/reset_psPeriod[2]_AND_579_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">rEngine/listenerCs[2]_GND_573_o_Mux_54_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">rEngine/listenerCs[2]_GND_570_o_Mux_48_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">make_tel_b.alims/reset_psPeriod[4]_AND_575_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">make_tel_b.alims/reset_psPeriod[6]_AND_571_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">make_tel_b.alims/reset_psPeriod[1]_AND_581_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">rEngine/listenerCs[2]_val_Mux_46_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">rEngine/listenerCs[2]_val_Mux_44_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">make_tel_b.alims/reset_psPeriod[3]_AND_577_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">rEngine/listenerCs[2]_GND_588_o_Mux_84_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">rEngine/listenerCs[2]_GND_589_o_Mux_86_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">rEngine/listenerCs[2]_PWR_259_o_Mux_88_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">rEngine/Mram__n07122</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">lWaitIn_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">free_n_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">free_p_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">riserv_n&lt;7&gt;_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">ioFpga_10_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">ioFpga_11_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">ioFpga_13_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">ioFpga_19_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">aVersB_1_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">aVersB_2_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">fLink/fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMD_D1_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram6_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram5_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram7_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram10_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram9_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram8_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram4_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">fLink/fifo3/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMD_D1_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">fLink/fifo3/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMD_D1_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram17_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram18_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram20_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram15_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram19_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram14_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram10_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram4_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram13_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram16_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram12_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram9_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram6_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram7_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram11_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram5_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram8_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram20_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">i2/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_D1_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram17_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram18_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">i2/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_D1_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram4_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram19_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram14_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram16_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram11_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram9_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram12_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram5_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram13_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram15_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram10_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram8_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram6_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram7_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">i1/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_D1_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">i1/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_D1_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">ql1/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_D1_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">ql1/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_D1_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">adc_monitor/aligneur/memoireRam/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">adc_monitor/aligneur/memoireRam/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">adc_monitor/aligneur/memoireRam/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram4_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">adc_monitor/aligneur/memoireRam/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram20_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram19_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram7_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram5_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram18_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram17_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram8_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram6_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram4_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram15_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram16_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram11_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram14_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram13_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram12_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram9_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram10_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="new" ><arg fmt="%s" index="1">PULLDOWN</arg> on an active net. <arg fmt="%s" index="2">PULLDOWN</arg> of comp <arg fmt="%s" index="3">ProtoComp94.PULL</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="new" ><arg fmt="%s" index="1">PULLDOWN</arg> on an active net. <arg fmt="%s" index="2">PULLDOWN</arg> of comp <arg fmt="%s" index="3">ProtoComp94.PULL.1</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="new" ><arg fmt="%s" index="1">PULLDOWN</arg> on an active net. <arg fmt="%s" index="2">PULLDOWN</arg> of comp <arg fmt="%s" index="3">ProtoComp94.PULL.2</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">q2/ddr_16_1/make_path[3].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">q2/ddr_16_1/make_path[4].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">q2/ddr_16_1/make_path[5].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">q2/ddr_16_1/make_path[6].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">q2/ddr_16_1/make_path[0].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">q2/ddr_16_1/make_path[1].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">q2/ddr_16_1/make_path[2].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">ql1/ddr_16_1/adc_clk_del</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">qh1/ddr_16_1/adc_clk_del</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2165" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">fLink/deser_VM/deser_inst/AISER8b/ISERDES_NODELAY_master</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDESE2_ISERDESE2</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1, the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">q3/ddr_16_1/adc_clk_del</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">i2/ddr_16_1/adc_clk_del</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">ql1/ddr_16_1/make_path[0].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">ql1/ddr_16_1/make_path[2].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">ql1/ddr_16_1/make_path[1].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">ql1/ddr_16_1/make_path[4].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">ql1/ddr_16_1/make_path[3].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">ql1/ddr_16_1/make_path[6].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">ql1/ddr_16_1/make_path[5].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">q3/ddr_16_1/make_path[3].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">q3/ddr_16_1/make_path[4].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">qh1/ddr_16_1/make_path[0].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">q3/ddr_16_1/make_path[5].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">q3/ddr_16_1/make_path[6].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">qh1/ddr_16_1/make_path[2].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">qh1/ddr_16_1/make_path[1].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">q3/ddr_16_1/make_path[0].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">q3/ddr_16_1/make_path[1].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">q3/ddr_16_1/make_path[2].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">qh1/ddr_16_1/make_path[4].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">qh1/ddr_16_1/make_path[3].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">qh1/ddr_16_1/make_path[6].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">qh1/ddr_16_1/make_path[5].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">i2/ddr_16_1/make_path[3].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">i2/ddr_16_1/make_path[4].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">i2/ddr_16_1/make_path[5].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">i2/ddr_16_1/make_path[6].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">i2/ddr_16_1/make_path[0].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">i2/ddr_16_1/make_path[1].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">i2/ddr_16_1/make_path[2].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">i1/ddr_16_1/make_path[3].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">i1/ddr_16_1/make_path[4].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">i1/ddr_16_1/make_path[5].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">i1/ddr_16_1/make_path[6].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">i1/ddr_16_1/make_path[0].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">i1/ddr_16_1/make_path[1].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">i1/ddr_16_1/make_path[2].idels</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">q2/ddr_16_1/adc_clk_del</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2394" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">i1/ddr_16_1/adc_clk_del</arg>&gt;:&lt;<arg fmt="%s" index="2">IDELAYE2_IDELAYE2</arg>&gt;.  With IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not used and will be ignored.
+</msg>
+
+<msg type="info" file="PhysDesignRules" num="2288" delta="old" >The read port and write port clocks of BRAM instance, <arg fmt="%s" index="1">q2/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.WIDE_PRIM36.ram</arg>, are using the same clock signal (synchronous clocking) with WRITE_FIRST mode specified. This configuration may encounter address collisions if the same address appears on both ports. It is suggested for this configuration to use READ_FIRST mode to avoid any conditions for address collision. See the FPGA Memory Resources User Guide for additional information.
+</msg>
+
+<msg type="info" file="PhysDesignRules" num="2288" delta="old" >The read port and write port clocks of BRAM instance, <arg fmt="%s" index="1">q3/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.WIDE_PRIM36.ram</arg>, are using the same clock signal (synchronous clocking) with WRITE_FIRST mode specified. This configuration may encounter address collisions if the same address appears on both ports. It is suggested for this configuration to use READ_FIRST mode to avoid any conditions for address collision. See the FPGA Memory Resources User Guide for additional information.
+</msg>
+
+<msg type="info" file="PhysDesignRules" num="2288" delta="old" >The read port and write port clocks of BRAM instance, <arg fmt="%s" index="1">q2/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.WIDE_PRIM36.ram</arg>, are using the same clock signal (synchronous clocking) with WRITE_FIRST mode specified. This configuration may encounter address collisions if the same address appears on both ports. It is suggested for this configuration to use READ_FIRST mode to avoid any conditions for address collision. See the FPGA Memory Resources User Guide for additional information.
+</msg>
+
+<msg type="info" file="PhysDesignRules" num="2288" delta="old" >The read port and write port clocks of BRAM instance, <arg fmt="%s" index="1">qh1/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.WIDE_PRIM36.ram</arg>, are using the same clock signal (synchronous clocking) with WRITE_FIRST mode specified. This configuration may encounter address collisions if the same address appears on both ports. It is suggested for this configuration to use READ_FIRST mode to avoid any conditions for address collision. See the FPGA Memory Resources User Guide for additional information.
+</msg>
+
+<msg type="info" file="PhysDesignRules" num="2288" delta="old" >The read port and write port clocks of BRAM instance, <arg fmt="%s" index="1">q3/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.WIDE_PRIM36.ram</arg>, are using the same clock signal (synchronous clocking) with WRITE_FIRST mode specified. This configuration may encounter address collisions if the same address appears on both ports. It is suggested for this configuration to use READ_FIRST mode to avoid any conditions for address collision. See the FPGA Memory Resources User Guide for additional information.
+</msg>
+
+<msg type="info" file="PhysDesignRules" num="2288" delta="old" >The read port and write port clocks of BRAM instance, <arg fmt="%s" index="1">qh1/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.WIDE_PRIM36.ram</arg>, are using the same clock signal (synchronous clocking) with WRITE_FIRST mode specified. This configuration may encounter address collisions if the same address appears on both ports. It is suggested for this configuration to use READ_FIRST mode to avoid any conditions for address collision. See the FPGA Memory Resources User Guide for additional information.
+</msg>
+
+</messages>
+

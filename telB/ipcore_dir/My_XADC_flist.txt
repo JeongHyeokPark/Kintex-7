@@ -1,0 +1,12 @@
+# Output products list for <My_XADC>
+My_XADC/doc/ug772_xadc_wiz.pdf
+My_XADC/doc/xadc_wiz_v2_1_readme.txt
+My_XADC/doc/xadc_wiz_v2_1_vinfo.html
+My_XADC/xadc_wiz_v2_1_readme.txt
+My_XADC.asy
+My_XADC.gise
+My_XADC.sym
+My_XADC.xco
+My_XADC.xise
+My_XADC_flist.txt
+My_XADC_xmdf.tcl

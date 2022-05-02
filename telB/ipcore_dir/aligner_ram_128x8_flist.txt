@@ -1,0 +1,16 @@
+# Output products list for <aligner_ram_128x8>
+_xmsgs/pn_parser.xmsgs
+aligner_ram_128x8/dist_mem_gen_v7_2_readme.txt
+aligner_ram_128x8/doc/dist_mem_gen_v7_2_vinfo.html
+aligner_ram_128x8/doc/pg063-dist-mem-gen.pdf
+aligner_ram_128x8.asy
+aligner_ram_128x8.gise
+aligner_ram_128x8.ngc
+aligner_ram_128x8.sym
+aligner_ram_128x8.vhd
+aligner_ram_128x8.vho
+aligner_ram_128x8.xco
+aligner_ram_128x8.xise
+aligner_ram_128x8_flist.txt
+aligner_ram_128x8_synth.vhd
+aligner_ram_128x8_xmdf.tcl

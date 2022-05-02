@@ -1,0 +1,101 @@
+Release 14.3 - par P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Thu Apr 28 14:07:50 2022
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 89 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   adc_monitor/aligneur/memoireRam/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_O
+   adc_monitor/aligneur/memoireRam/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_O
+   adc_monitor/aligneur/memoireRam/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RAMD_O
+   adc_monitor/aligneur/memoireRam/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram4_RAMD_O
+   fLink/fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMD_D1_O
+   fLink/fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMD_D1_O
+   fLink/fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMD_D1_O
+   fLink/fifo3/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMD_D1_O
+   fLink/fifo3/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMD_D1_O
+   i1/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_D1_O
+   i1/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_D1_O
+   i2/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_D1_O
+   i2/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_D1_O
+   ioFpga_10_IBUF
+   ioFpga_22_IBUF
+   ioFpga_9_IBUF
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram10_RAMD_O
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram11_RAMD_O
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram12_RAMD_O
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram13_RAMD_O
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram14_RAMD_O
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram15_RAMD_O
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram16_RAMD_O
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram17_RAMD_O
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram18_RAMD_O
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram19_RAMD_O
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_O
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram20_RAMD_O
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_O
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RAMD_O
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram4_RAMD_O
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram5_RAMD_O
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram6_RAMD_O
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram7_RAMD_O
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram8_RAMD_O
+   q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram9_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram10_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram11_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram12_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram13_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram14_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram15_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram16_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram17_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram18_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram19_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram20_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram4_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram5_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram6_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram7_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram8_RAMD_O
+   q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram9_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram10_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram11_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram12_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram13_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram14_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram15_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram16_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram17_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram18_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram19_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram20_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram4_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram5_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram6_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram7_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram8_RAMD_O
+   qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram9_RAMD_O
+   ql1/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_D1_O
+   ql1/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_D1_O
+   rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram10_RAMD_O
+   rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RAMD_O
+   rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RAMD_O
+   rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RAMD_O
+   rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram4_RAMD_O
+   rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram5_RAMD_O
+   rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram6_RAMD_O
+   rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram7_RAMD_O
+   rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram8_RAMD_O
+   rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram9_RAMD_O
+   riserv_n<7>_IBUF
+
+

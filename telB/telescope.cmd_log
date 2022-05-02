@@ -1,0 +1,144 @@
+xst -intstyle ise -ifn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.xst" -ofn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+xst -intstyle ise -ifn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.xst" -ofn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+xst -intstyle ise -ifn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.xst" -ofn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.syr" 
+xst -intstyle ise -ifn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.xst" -ofn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.syr" 
+xst -intstyle ise -ifn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.xst" -ofn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+xst -intstyle ise -ifn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.xst" -ofn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+xst -intstyle ise -ifn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.xst" -ofn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.syr" 
+xst -intstyle ise -ifn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.xst" -ofn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.syr" 
+xst -intstyle ise -ifn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.xst" -ofn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.syr" 
+xst -intstyle ise -ifn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.xst" -ofn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+xst -intstyle ise -ifn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.xst" -ofn "/home/parallels/Desktop/newCode/Kintex-7/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml telescope.twx telescope.ncd -o telescope.twr telescope.pcf -ucf telescope.ucf 
+xst -intstyle ise -ifn "/home/fazia/Desktop/Kintex-7/telB/telescope.xst" -ofn "/home/fazia/Desktop/Kintex-7/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml telescope.twx telescope.ncd -o telescope.twr telescope.pcf -ucf telescope.ucf 
+bitgen -intstyle ise -f telescope.ut telescope.ncd 
+xst -intstyle ise -ifn "/home/fazia/Desktop/Kintex-7/telB/telescope.xst" -ofn "/home/fazia/Desktop/Kintex-7/telB/telescope.syr" 
+xst -intstyle ise -ifn "/home/fazia/Desktop/Kintex-7/telB/telescope.xst" -ofn "/home/fazia/Desktop/Kintex-7/telB/telescope.syr" 
+xst -intstyle ise -ifn "/home/fazia/Desktop/Kintex-7/telB/telescope.xst" -ofn "/home/fazia/Desktop/Kintex-7/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml telescope.twx telescope.ncd -o telescope.twr telescope.pcf -ucf telescope.ucf 
+bitgen -intstyle ise -f telescope.ut telescope.ncd 
+xst -intstyle ise -ifn "/home/fazia/Desktop/Kintex-7/telB/telescope.xst" -ofn "/home/fazia/Desktop/Kintex-7/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+xst -intstyle ise -ifn "/home/fazia/Desktop/Kintex-7/telB/telescope.xst" -ofn "/home/fazia/Desktop/Kintex-7/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml telescope.twx telescope.ncd -o telescope.twr telescope.pcf -ucf telescope.ucf 
+bitgen -intstyle ise -f telescope.ut telescope.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc /home/parallels/Desktop/finalCode/Kintex-7/common/telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml telescope.twx telescope.ncd -o telescope.twr telescope.pcf 
+bitgen -intstyle ise -f telescope.ut telescope.ncd 
+xst -intstyle ise -ifn "/home/parallels/Desktop/finalCode/Kintex-7/telB/telescope.xst" -ofn "/home/parallels/Desktop/finalCode/Kintex-7/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc /home/parallels/Desktop/finalCode/Kintex-7/common/telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml telescope.twx telescope.ncd -o telescope.twr telescope.pcf 
+bitgen -intstyle ise -f telescope.ut telescope.ncd 
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc /home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml telescope.twx telescope.ncd -o telescope.twr telescope.pcf 
+bitgen -intstyle ise -f telescope.ut telescope.ncd 
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc /home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml telescope.twx telescope.ncd -o telescope.twr telescope.pcf 
+bitgen -intstyle ise -f telescope.ut telescope.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc /home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc /home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+bitgen -intstyle ise -f telescope.ut telescope.ncd 
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc /home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml telescope.twx telescope.ncd -o telescope.twr telescope.pcf 
+bitgen -intstyle ise -f telescope.ut telescope.ncd 
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../common/ipcore_dir -nt timestamp -uc /home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc /home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../common/ipcore_dir -nt timestamp -uc /home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../common/ipcore_dir -nt timestamp -uc /home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml telescope.twx telescope.ncd -o telescope.twr telescope.pcf 
+bitgen -intstyle ise -f telescope.ut telescope.ncd 
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../common/ipcore_dir -nt timestamp -uc /home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../common/ipcore_dir -nt timestamp -uc /home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml telescope.twx telescope.ncd -o telescope.twr telescope.pcf 
+bitgen -intstyle ise -f telescope.ut telescope.ncd 
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../common/ipcore_dir -nt timestamp -uc /home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml telescope.twx telescope.ncd -o telescope.twr telescope.pcf 
+bitgen -intstyle ise -f telescope.ut telescope.ncd 
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../common/ipcore_dir -nt timestamp -uc /home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml telescope.twx telescope.ncd -o telescope.twr telescope.pcf 
+bitgen -intstyle ise -f telescope.ut telescope.ncd 
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../common/ipcore_dir -nt timestamp -uc /home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml telescope.twx telescope.ncd -o telescope.twr telescope.pcf 
+bitgen -intstyle ise -f telescope.ut telescope.ncd 
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../common/ipcore_dir -nt timestamp -uc /home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml telescope.twx telescope.ncd -o telescope.twr telescope.pcf 
+bitgen -intstyle ise -f telescope.ut telescope.ncd 
+xst -intstyle ise -ifn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.xst" -ofn "/home/fazia/Desktop/debug_fazia_code_roms/telB/telescope.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../common/ipcore_dir -nt timestamp -uc /home/fazia/Desktop/debug_fazia_code_roms/common/telescope.ucf -p xc7k160t-ffg676-2 telescope.ngc telescope.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+par -w -intstyle ise -ol high -mt off telescope_map.ncd telescope.ncd telescope.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml telescope.twx telescope.ncd -o telescope.twr telescope.pcf 
+bitgen -intstyle ise -f telescope.ut telescope.ncd 

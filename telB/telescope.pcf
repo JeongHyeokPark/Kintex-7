@@ -1,0 +1,594 @@
+//! **************************************************************************
+// Written by: Map P.40xd on Thu Apr 28 14:17:37 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "galIO<10>" LOCATE = SITE "B14" LEVEL 1;
+COMP "galIO<11>" LOCATE = SITE "A14" LEVEL 1;
+COMP "ckAdcI2_p" LOCATE = SITE "AC18" LEVEL 1;
+COMP "galIO<12>" LOCATE = SITE "A13" LEVEL 1;
+COMP "galIO<13>" LOCATE = SITE "C13" LEVEL 1;
+COMP "ckAdcI2_n" LOCATE = SITE "AD18" LEVEL 1;
+COMP "adcQ3_p<5>" LOCATE = SITE "W4" LEVEL 1;
+COMP "adcQ3_p<6>" LOCATE = SITE "U1" LEVEL 1;
+COMP "adcQ3_p<7>" LOCATE = SITE "U5" LEVEL 1;
+COMP "adcI1Sdio" LOCATE = SITE "AB14" LEVEL 1;
+COMP "adcQ3_n<5>" LOCATE = SITE "V4" LEVEL 1;
+COMP "adcQ3_n<6>" LOCATE = SITE "U2" LEVEL 1;
+COMP "adcQ3_p<0>" LOCATE = SITE "AA5" LEVEL 1;
+COMP "adcQ3_n<7>" LOCATE = SITE "U6" LEVEL 1;
+COMP "adcQ3_p<1>" LOCATE = SITE "Y5" LEVEL 1;
+COMP "adcQ3_p<2>" LOCATE = SITE "Y2" LEVEL 1;
+COMP "ckAdcI1_p" LOCATE = SITE "AB16" LEVEL 1;
+COMP "adcQ3_p<3>" LOCATE = SITE "W5" LEVEL 1;
+COMP "adcQ3_p<4>" LOCATE = SITE "V3" LEVEL 1;
+COMP "ckAdcI1_n" LOCATE = SITE "AC16" LEVEL 1;
+COMP "adcQ3_n<0>" LOCATE = SITE "AB5" LEVEL 1;
+COMP "adcQ3_n<1>" LOCATE = SITE "Y6" LEVEL 1;
+COMP "adcQ3_n<2>" LOCATE = SITE "Y3" LEVEL 1;
+COMP "adcQ3_n<3>" LOCATE = SITE "W6" LEVEL 1;
+COMP "adcQ3_n<4>" LOCATE = SITE "W3" LEVEL 1;
+COMP "sdo_n" LOCATE = SITE "N23" LEVEL 1;
+COMP "sdo_p" LOCATE = SITE "P23" LEVEL 1;
+COMP "adcI1Sclk" LOCATE = SITE "AF14" LEVEL 1;
+COMP "blkBusyOut" LOCATE = SITE "Y25" LEVEL 1;
+COMP "adcQH1Sdio" LOCATE = SITE "AE8" LEVEL 1;
+COMP "ckAdcQL1_p" LOCATE = SITE "AB11" LEVEL 1;
+COMP "ckAdcQL1_n" LOCATE = SITE "AC11" LEVEL 1;
+COMP "galIO<9>" LOCATE = SITE "C14" LEVEL 1;
+COMP "galIO<6>" LOCATE = SITE "B16" LEVEL 1;
+COMP "galIO<5>" LOCATE = SITE "C16" LEVEL 1;
+COMP "lWaitOut" LOCATE = SITE "W26" LEVEL 1;
+COMP "galIO<8>" LOCATE = SITE "A15" LEVEL 1;
+COMP "galIO<7>" LOCATE = SITE "B15" LEVEL 1;
+COMP "galIO<2>" LOCATE = SITE "C17" LEVEL 1;
+COMP "galIO<1>" LOCATE = SITE "A18" LEVEL 1;
+COMP "galClk" LOCATE = SITE "A12" LEVEL 1;
+COMP "galIO<4>" LOCATE = SITE "A17" LEVEL 1;
+COMP "galIO<3>" LOCATE = SITE "B17" LEVEL 1;
+COMP "adcQH1_n<2>" LOCATE = SITE "AB9" LEVEL 1;
+COMP "galIO<0>" LOCATE = SITE "C18" LEVEL 1;
+COMP "adcQH1_n<1>" LOCATE = SITE "W10" LEVEL 1;
+COMP "adcQH1_n<4>" LOCATE = SITE "AA8" LEVEL 1;
+COMP "adcQH1_n<3>" LOCATE = SITE "V9" LEVEL 1;
+COMP "adcQH1_n<0>" LOCATE = SITE "AF10" LEVEL 1;
+COMP "adcQH1_n<6>" LOCATE = SITE "AF7" LEVEL 1;
+COMP "adcQ2Cs_n" LOCATE = SITE "AE1" LEVEL 1;
+COMP "adcQH1_n<5>" LOCATE = SITE "Y8" LEVEL 1;
+COMP "adcQH1_n<7>" LOCATE = SITE "AC7" LEVEL 1;
+COMP "adjust1" LOCATE = SITE "A8" LEVEL 1;
+COMP "adjust2" LOCATE = SITE "B9" LEVEL 1;
+COMP "adjust3" LOCATE = SITE "A9" LEVEL 1;
+COMP "adcQH1Sclk" LOCATE = SITE "AD8" LEVEL 1;
+COMP "adcQ2Sdo" LOCATE = SITE "AC1" LEVEL 1;
+COMP "adcQH1_p<2>" LOCATE = SITE "AA9" LEVEL 1;
+COMP "adcQH1_p<1>" LOCATE = SITE "W9" LEVEL 1;
+COMP "adcQH1_p<4>" LOCATE = SITE "AA7" LEVEL 1;
+COMP "adcQH1_p<3>" LOCATE = SITE "W8" LEVEL 1;
+COMP "adcQ2_p<5>" LOCATE = SITE "AD5" LEVEL 1;
+COMP "adcQ2_p<6>" LOCATE = SITE "AB2" LEVEL 1;
+COMP "adcQH1_p<0>" LOCATE = SITE "AF9" LEVEL 1;
+COMP "adcQ2_p<7>" LOCATE = SITE "AB6" LEVEL 1;
+COMP "adcQH1_p<6>" LOCATE = SITE "AE7" LEVEL 1;
+COMP "adcQH1_p<5>" LOCATE = SITE "Y7" LEVEL 1;
+COMP "adcQL1Sdio" LOCATE = SITE "Y10" LEVEL 1;
+COMP "adcQ2_n<5>" LOCATE = SITE "AD6" LEVEL 1;
+COMP "adcQ2_n<6>" LOCATE = SITE "AC2" LEVEL 1;
+COMP "adcQH1_p<7>" LOCATE = SITE "AB7" LEVEL 1;
+COMP "adcQ2_p<0>" LOCATE = SITE "AF3" LEVEL 1;
+COMP "adcQ2_n<7>" LOCATE = SITE "AC6" LEVEL 1;
+COMP "adcQ2_p<1>" LOCATE = SITE "AF5" LEVEL 1;
+COMP "adcQ2_p<2>" LOCATE = SITE "AD3" LEVEL 1;
+COMP "dataUsb<7>" LOCATE = SITE "F8" LEVEL 1;
+COMP "adcQ2_p<3>" LOCATE = SITE "AE2" LEVEL 1;
+COMP "adcQ2_p<4>" LOCATE = SITE "AC3" LEVEL 1;
+COMP "dataUsb<5>" LOCATE = SITE "F9" LEVEL 1;
+COMP "dataUsb<6>" LOCATE = SITE "D8" LEVEL 1;
+COMP "adcQ2_n<0>" LOCATE = SITE "AF2" LEVEL 1;
+COMP "adcQ2_n<1>" LOCATE = SITE "AF4" LEVEL 1;
+COMP "adcQ2_n<2>" LOCATE = SITE "AD4" LEVEL 1;
+COMP "dataUsb<0>" LOCATE = SITE "E11" LEVEL 1;
+COMP "adcQ2_n<3>" LOCATE = SITE "AE3" LEVEL 1;
+COMP "adcQ2_n<4>" LOCATE = SITE "AC4" LEVEL 1;
+COMP "dataUsb<3>" LOCATE = SITE "G10" LEVEL 1;
+COMP "dataUsb<4>" LOCATE = SITE "D9" LEVEL 1;
+COMP "dataUsb<1>" LOCATE = SITE "H11" LEVEL 1;
+COMP "dataUsb<2>" LOCATE = SITE "E10" LEVEL 1;
+COMP "ckAdcQ2_p" LOCATE = SITE "AA4" LEVEL 1;
+COMP "ckAdcQ2_n" LOCATE = SITE "AB4" LEVEL 1;
+COMP "ucSpiSs_n" LOCATE = SITE "J19" LEVEL 1;
+COMP "adcQL1_n<2>" LOCATE = SITE "AA13" LEVEL 1;
+COMP "adcQL1_n<1>" LOCATE = SITE "AC13" LEVEL 1;
+COMP "adcQL1_n<4>" LOCATE = SITE "AD11" LEVEL 1;
+COMP "adcI1Cs_n" LOCATE = SITE "AF15" LEVEL 1;
+COMP "adcQL1_n<3>" LOCATE = SITE "Y13" LEVEL 1;
+COMP "adcQL1_n<0>" LOCATE = SITE "AE13" LEVEL 1;
+COMP "adcQL1_n<6>" LOCATE = SITE "AD10" LEVEL 1;
+COMP "adcQL1Sclk" LOCATE = SITE "AF12" LEVEL 1;
+COMP "lWaitIn" LOCATE = SITE "W25" LEVEL 1;
+COMP "adcQL1_n<5>" LOCATE = SITE "V11" LEVEL 1;
+COMP "ledBleue" LOCATE = SITE "C12" LEVEL 1;
+COMP "adcQL1_n<7>" LOCATE = SITE "AA10" LEVEL 1;
+COMP "wrUsb" LOCATE = SITE "G12" LEVEL 1;
+COMP "lt" LOCATE = SITE "AF25" LEVEL 1;
+COMP "aux_0" LOCATE = SITE "C19" LEVEL 1;
+COMP "aux_1" LOCATE = SITE "B19" LEVEL 1;
+COMP "aux_2" LOCATE = SITE "A19" LEVEL 1;
+COMP "adcQ3Sdio" LOCATE = SITE "V2" LEVEL 1;
+COMP "adcQL1_p<2>" LOCATE = SITE "AA12" LEVEL 1;
+COMP "adcQL1_p<1>" LOCATE = SITE "AD13" LEVEL 1;
+COMP "adcI1Sdo" LOCATE = SITE "AB15" LEVEL 1;
+COMP "adcQL1_p<4>" LOCATE = SITE "AE11" LEVEL 1;
+COMP "adcQL1_p<3>" LOCATE = SITE "Y12" LEVEL 1;
+COMP "adcQL1_p<0>" LOCATE = SITE "AF13" LEVEL 1;
+COMP "sysClk_p" LOCATE = SITE "F22" LEVEL 1;
+COMP "adcQH1Cs_n" LOCATE = SITE "AC8" LEVEL 1;
+COMP "sysClk_n" LOCATE = SITE "E23" LEVEL 1;
+COMP "adcQL1_p<6>" LOCATE = SITE "AE10" LEVEL 1;
+COMP "adcQL1_p<5>" LOCATE = SITE "W11" LEVEL 1;
+COMP "adcQL1_p<7>" LOCATE = SITE "AB10" LEVEL 1;
+COMP "adcQ3Sclk" LOCATE = SITE "W1" LEVEL 1;
+COMP "ckAdcQH1_p" LOCATE = SITE "AC9" LEVEL 1;
+COMP "rxf_n" LOCATE = SITE "J14" LEVEL 1;
+COMP "ckAdcQH1_n" LOCATE = SITE "AD9" LEVEL 1;
+COMP "dacScl" LOCATE = SITE "A10" LEVEL 1;
+COMP "dacSda" LOCATE = SITE "B10" LEVEL 1;
+COMP "ioFpga_4" LOCATE = SITE "AA25" LEVEL 1;
+COMP "ioFpga_5" LOCATE = SITE "AB25" LEVEL 1;
+COMP "ioFpga_6" LOCATE = SITE "AB26" LEVEL 1;
+COMP "ioFpga_7" LOCATE = SITE "AC26" LEVEL 1;
+COMP "ioFpga_8" LOCATE = SITE "AD26" LEVEL 1;
+COMP "ioFpga_9" LOCATE = SITE "AE26" LEVEL 1;
+COMP "txe_n" LOCATE = SITE "J13" LEVEL 1;
+COMP "adcQL1Cs_n" LOCATE = SITE "AC12" LEVEL 1;
+COMP "adcI2Sdio" LOCATE = SITE "AF17" LEVEL 1;
+COMP "ucSpiSdi" LOCATE = SITE "J20" LEVEL 1;
+COMP "ucSpiSdo" LOCATE = SITE "K20" LEVEL 1;
+COMP "ucSpiSck" LOCATE = SITE "K17" LEVEL 1;
+PIN ucSpiSck_pin<0> = BEL "ucSpiSck" PINNAME PAD;
+PIN "ucSpiSck_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "adcI2_p<4>" LOCATE = SITE "AF18" LEVEL 1;
+COMP "adcI2_p<3>" LOCATE = SITE "AD19" LEVEL 1;
+COMP "adcI2_p<2>" LOCATE = SITE "AA19" LEVEL 1;
+COMP "adcI2_p<1>" LOCATE = SITE "AB19" LEVEL 1;
+COMP "adcI2_p<0>" LOCATE = SITE "AE20" LEVEL 1;
+COMP "adcI2Sclk" LOCATE = SITE "AF19" LEVEL 1;
+COMP "adcQ3Sdo" LOCATE = SITE "V1" LEVEL 1;
+COMP "adcI2_n<4>" LOCATE = SITE "AE18" LEVEL 1;
+COMP "adcI2_n<3>" LOCATE = SITE "AC19" LEVEL 1;
+COMP "adcI2_n<2>" LOCATE = SITE "AA20" LEVEL 1;
+COMP "adcI2_n<1>" LOCATE = SITE "AB20" LEVEL 1;
+COMP "adcI2_p<7>" LOCATE = SITE "AA17" LEVEL 1;
+COMP "adcI2_n<0>" LOCATE = SITE "AD20" LEVEL 1;
+COMP "adcI2_p<6>" LOCATE = SITE "AC17" LEVEL 1;
+COMP "adcI2_p<5>" LOCATE = SITE "V18" LEVEL 1;
+COMP "adcI2_n<7>" LOCATE = SITE "AA18" LEVEL 1;
+COMP "adcI2_n<6>" LOCATE = SITE "AB17" LEVEL 1;
+COMP "adcI2_n<5>" LOCATE = SITE "V19" LEVEL 1;
+COMP "free_n" LOCATE = SITE "W24" LEVEL 1;
+COMP "free_p" LOCATE = SITE "W23" LEVEL 1;
+COMP "ledJaune" LOCATE = SITE "B12" LEVEL 1;
+COMP "adcQH1Sdo" LOCATE = SITE "AF8" LEVEL 1;
+COMP "adcQ3Cs_n" LOCATE = SITE "Y1" LEVEL 1;
+COMP "adcI2Rst_n" LOCATE = SITE "AF20" LEVEL 1;
+COMP "riserv_p<5>" LOCATE = SITE "G24" LEVEL 1;
+COMP "riserv_p<6>" LOCATE = SITE "H21" LEVEL 1;
+COMP "riserv_p<7>" LOCATE = SITE "J26" LEVEL 1;
+COMP "riserv_p<1>" LOCATE = SITE "C21" LEVEL 1;
+COMP "riserv_p<2>" LOCATE = SITE "D26" LEVEL 1;
+COMP "riserv_p<3>" LOCATE = SITE "E25" LEVEL 1;
+COMP "riserv_p<4>" LOCATE = SITE "F25" LEVEL 1;
+COMP "riserv_p<0>" LOCATE = SITE "B20" LEVEL 1;
+COMP "alignOut" LOCATE = SITE "W20" LEVEL 1;
+COMP "ledRouge" LOCATE = SITE "B11" LEVEL 1;
+COMP "glt" LOCATE = SITE "AA24" LEVEL 1;
+COMP "adcI2Sdo" LOCATE = SITE "Y18" LEVEL 1;
+COMP "adcI1_p<4>" LOCATE = SITE "AD15" LEVEL 1;
+COMP "adcI1_p<3>" LOCATE = SITE "W15" LEVEL 1;
+COMP "riserv_n<5>" LOCATE = SITE "F24" LEVEL 1;
+COMP "adcI1_p<2>" LOCATE = SITE "Y15" LEVEL 1;
+COMP "riserv_n<6>" LOCATE = SITE "G21" LEVEL 1;
+COMP "adcI1_p<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "riserv_n<7>" LOCATE = SITE "H26" LEVEL 1;
+COMP "adcI1_p<0>" LOCATE = SITE "AE16" LEVEL 1;
+COMP "riserv_n<1>" LOCATE = SITE "B21" LEVEL 1;
+COMP "riserv_n<2>" LOCATE = SITE "C26" LEVEL 1;
+COMP "clk25MHz_p" LOCATE = SITE "G22" LEVEL 1;
+COMP "riserv_n<3>" LOCATE = SITE "D25" LEVEL 1;
+COMP "adcQ2Sdio" LOCATE = SITE "AB1" LEVEL 1;
+COMP "ioFpga_20" LOCATE = SITE "D19" LEVEL 1;
+COMP "riserv_n<4>" LOCATE = SITE "E26" LEVEL 1;
+COMP "ioFpga_21" LOCATE = SITE "G20" LEVEL 1;
+COMP "ioFpga_22" LOCATE = SITE "D18" LEVEL 1;
+COMP "adcI1_n<4>" LOCATE = SITE "AE15" LEVEL 1;
+COMP "ioFpga_10" LOCATE = SITE "V26" LEVEL 1;
+COMP "ioFpga_11" LOCATE = SITE "L19" LEVEL 1;
+COMP "ioFpga_12" LOCATE = SITE "L20" LEVEL 1;
+COMP "ioFpga_13" LOCATE = SITE "M16" LEVEL 1;
+COMP "ioFpga_14" LOCATE = SITE "M17" LEVEL 1;
+COMP "ioFpga_15" LOCATE = SITE "E20" LEVEL 1;
+COMP "ioFpga_17" LOCATE = SITE "G19" LEVEL 1;
+COMP "ioFpga_18" LOCATE = SITE "C9" LEVEL 1;
+COMP "adcI1_n<3>" LOCATE = SITE "W16" LEVEL 1;
+COMP "ioFpga_19" LOCATE = SITE "D20" LEVEL 1;
+COMP "clk25MHz_n" LOCATE = SITE "F23" LEVEL 1;
+COMP "adcI1_n<2>" LOCATE = SITE "Y16" LEVEL 1;
+COMP "aVersB_0" LOCATE = SITE "T25" LEVEL 1;
+COMP "aVersB_1" LOCATE = SITE "U25" LEVEL 1;
+COMP "aVersB_2" LOCATE = SITE "U26" LEVEL 1;
+COMP "aVersB_3" LOCATE = SITE "V24" LEVEL 1;
+COMP "adcI1_n<1>" LOCATE = SITE "V17" LEVEL 1;
+COMP "riserv_n<0>" LOCATE = SITE "A20" LEVEL 1;
+COMP "adcI1_p<7>" LOCATE = SITE "V14" LEVEL 1;
+COMP "adcI1_n<0>" LOCATE = SITE "AD16" LEVEL 1;
+COMP "adcI1_p<6>" LOCATE = SITE "AC14" LEVEL 1;
+COMP "adcI1_p<5>" LOCATE = SITE "AA14" LEVEL 1;
+COMP "resetIn" LOCATE = SITE "K18" LEVEL 1;
+COMP "adcI1_n<7>" LOCATE = SITE "W14" LEVEL 1;
+COMP "adcI1_n<6>" LOCATE = SITE "AD14" LEVEL 1;
+COMP "adcI1_n<5>" LOCATE = SITE "AA15" LEVEL 1;
+COMP "adcI2Cs_n" LOCATE = SITE "W19" LEVEL 1;
+COMP "sdo_H_p" LOCATE = SITE "R21" LEVEL 1;
+COMP "sdo_H_n" LOCATE = SITE "P21" LEVEL 1;
+COMP "adcQL1Sdo" LOCATE = SITE "AB12" LEVEL 1;
+COMP "adcQ2Sclk" LOCATE = SITE "AD1" LEVEL 1;
+COMP "blkBusyIn" LOCATE = SITE "Y26" LEVEL 1;
+COMP "sdi_n" LOCATE = SITE "N24" LEVEL 1;
+COMP "sdi_p" LOCATE = SITE "P24" LEVEL 1;
+COMP "rdUsb_n" LOCATE = SITE "H12" LEVEL 1;
+COMP "syncZer" LOCATE = SITE "Y23" LEVEL 1;
+COMP "idFpga" LOCATE = SITE "D10" LEVEL 1;
+COMP "adcI1Rst_n" LOCATE = SITE "AE17" LEVEL 1;
+COMP "ckAdcQ3_p" LOCATE = SITE "AA3" LEVEL 1;
+COMP "ledVerte" LOCATE = SITE "C11" LEVEL 1;
+COMP "ckAdcQ3_n" LOCATE = SITE "AA2" LEVEL 1;
+COMP "adcQL1Rst_n" LOCATE = SITE "AE12" LEVEL 1;
+COMP "alignIn" LOCATE = SITE "W21" LEVEL 1;
+COMP "sdo_L_p" LOCATE = SITE "M25" LEVEL 1;
+COMP "sdo_L_n" LOCATE = SITE "L25" LEVEL 1;
+PIN
+        i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_pins<32>
+        = BEL
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKARDCLK;
+PIN
+        i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_pins<32>
+        = BEL
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKARDCLK;
+PIN
+        ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_pins<32>
+        = BEL
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKARDCLK;
+PIN
+        i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_pins<32>
+        = BEL
+        "i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKARDCLK;
+PIN
+        i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_pins<33>
+        = BEL
+        "i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKBWRCLK;
+PIN
+        i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_pins<32>
+        = BEL
+        "i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKARDCLK;
+PIN
+        i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_pins<33>
+        = BEL
+        "i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKBWRCLK;
+PIN
+        ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_pins<32>
+        = BEL
+        "ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKARDCLK;
+PIN
+        ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_pins<33>
+        = BEL
+        "ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKBWRCLK;
+PIN
+        i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>
+        = BEL
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKU;
+PIN
+        i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>
+        = BEL
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKL;
+PIN
+        i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>
+        = BEL
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKU;
+PIN
+        i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>
+        = BEL
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKL;
+PIN
+        i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>
+        = BEL
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKU;
+PIN
+        i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>
+        = BEL
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKL;
+PIN
+        i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>
+        = BEL
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKU;
+PIN
+        i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>
+        = BEL
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKL;
+PIN
+        i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>
+        = BEL
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKU;
+PIN
+        i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>
+        = BEL
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKL;
+PIN
+        i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>
+        = BEL
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKU;
+PIN
+        i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>
+        = BEL
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKL;
+PIN
+        ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>
+        = BEL
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKU;
+PIN
+        ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>
+        = BEL
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKL;
+PIN
+        ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>
+        = BEL
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKU;
+PIN
+        ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>
+        = BEL
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKL;
+PIN
+        ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>
+        = BEL
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKU;
+PIN
+        ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>
+        = BEL
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKL;
+TIMEGRP ADC_250_CLK = BEL "i1/waverFast/adWrFifo_12" BEL
+        "i1/waverFast/adWrFifo_11" BEL "i1/waverFast/adWrFifo_10" BEL
+        "i1/waverFast/adWrFifo_9" BEL "i1/waverFast/adWrFifo_8" BEL
+        "i1/waverFast/adWrFifo_7" BEL "i1/waverFast/adWrFifo_6" BEL
+        "i1/waverFast/adWrFifo_5" BEL "i1/waverFast/adWrFifo_4" BEL
+        "i1/waverFast/adWrFifo_3" BEL "i1/waverFast/adWrFifo_2" BEL
+        "i1/waverFast/adWrFifo_1" BEL "i1/waverFast/adWrFifo_0" BEL
+        "i1/waverFast/ctWrCirc_9" BEL "i1/waverFast/ctWrCirc_8" BEL
+        "i1/waverFast/ctWrCirc_7" BEL "i1/waverFast/ctWrCirc_6" BEL
+        "i1/waverFast/ctWrCirc_5" BEL "i1/waverFast/ctWrCirc_4" BEL
+        "i1/waverFast/ctWrCirc_3" BEL "i1/waverFast/ctWrCirc_2" BEL
+        "i1/waverFast/ctWrCirc_1" BEL "i1/waverFast/ctWrCirc_0" BEL
+        "i1/waverFast/acqFastCs_FSM_FFd1" BEL
+        "i1/waverFast/acqFastCs_FSM_FFd2" BEL
+        "i1/waverFast/acqFastCs_FSM_FFd3" BEL "i1/waverFast/decimator_2" BEL
+        "i1/waverFast/decimator_1" BEL "i1/waverFast/decimator_0" BEL
+        "i1/waverFast/ctRdCirc_9" BEL "i1/waverFast/ctRdCirc_8" BEL
+        "i1/waverFast/ctRdCirc_7" BEL "i1/waverFast/ctRdCirc_6" BEL
+        "i1/waverFast/ctRdCirc_5" BEL "i1/waverFast/ctRdCirc_4" BEL
+        "i1/waverFast/ctRdCirc_2" BEL "i1/waverFast/ctRdCirc_1" BEL
+        "i1/waverFast/ctRdCirc_3" BEL "i1/waverFast/ctRdCirc_0" BEL
+        "i1/waverFast/ctStore_12" BEL "i1/waverFast/ctStore_11" BEL
+        "i1/waverFast/ctStore_10" BEL "i1/waverFast/ctStore_9" BEL
+        "i1/waverFast/ctStore_8" BEL "i1/waverFast/ctStore_7" BEL
+        "i1/waverFast/ctStore_6" BEL "i1/waverFast/ctStore_5" BEL
+        "i1/waverFast/ctStore_4" BEL "i1/waverFast/ctStore_3" BEL
+        "i1/waverFast/ctStore_2" BEL "i1/waverFast/ctStore_1" BEL
+        "i1/waverFast/ctStore_0" BEL "i1/waverFast/adWrCap_12" BEL
+        "i1/waverFast/adWrCap_11" BEL "i1/waverFast/adWrCap_10" BEL
+        "i1/waverFast/adWrCap_9" BEL "i1/waverFast/adWrCap_8" BEL
+        "i1/waverFast/adWrCap_7" BEL "i1/waverFast/adWrCap_6" BEL
+        "i1/waverFast/adWrCap_5" BEL "i1/waverFast/adWrCap_4" BEL
+        "i1/waverFast/adWrCap_3" BEL "i1/waverFast/adWrCap_2" BEL
+        "i1/waverFast/adWrCap_1" BEL "i1/waverFast/adWrCap_0" BEL
+        "i1/waverFast/valResync" BEL "i1/waverFast/fifoWrDone" BEL
+        "i1/waverFast/dataDecim_13" BEL "i1/waverFast/dataDecim_12" BEL
+        "i1/waverFast/dataDecim_11" BEL "i1/waverFast/dataDecim_10" BEL
+        "i1/waverFast/dataDecim_9" BEL "i1/waverFast/dataDecim_8" BEL
+        "i1/waverFast/dataDecim_7" BEL "i1/waverFast/dataDecim_6" BEL
+        "i1/waverFast/dataDecim_5" BEL "i1/waverFast/dataDecim_4" BEL
+        "i1/waverFast/dataDecim_3" BEL "i1/waverFast/dataDecim_2" BEL
+        "i1/waverFast/dataDecim_1" BEL "i1/waverFast/dataDecim_0" BEL
+        "i1/ddr_16_1/make_path[6].fastInstance.iddr_x" BEL
+        "i1/ddr_16_1/make_path[5].fastInstance.iddr_x" BEL
+        "i1/ddr_16_1/make_path[4].fastInstance.iddr_x" BEL
+        "i1/ddr_16_1/make_path[3].fastInstance.iddr_x" BEL
+        "i1/ddr_16_1/make_path[2].fastInstance.iddr_x" BEL
+        "i1/ddr_16_1/make_path[1].fastInstance.iddr_x" BEL
+        "i1/ddr_16_1/make_path[0].fastInstance.iddr_x" BEL
+        "i1/ddr_16_1/bufferR" BEL "i1/ddr_16_1/sysClkTest" BEL
+        "ql1/waverFast/adWrFifo_12" BEL "ql1/waverFast/adWrFifo_11" BEL
+        "ql1/waverFast/adWrFifo_10" BEL "ql1/waverFast/adWrFifo_9" BEL
+        "ql1/waverFast/adWrFifo_8" BEL "ql1/waverFast/adWrFifo_7" BEL
+        "ql1/waverFast/adWrFifo_6" BEL "ql1/waverFast/adWrFifo_5" BEL
+        "ql1/waverFast/adWrFifo_4" BEL "ql1/waverFast/adWrFifo_3" BEL
+        "ql1/waverFast/adWrFifo_2" BEL "ql1/waverFast/adWrFifo_1" BEL
+        "ql1/waverFast/adWrFifo_0" BEL "ql1/waverFast/ctWrCirc_9" BEL
+        "ql1/waverFast/ctWrCirc_8" BEL "ql1/waverFast/ctWrCirc_7" BEL
+        "ql1/waverFast/ctWrCirc_6" BEL "ql1/waverFast/ctWrCirc_5" BEL
+        "ql1/waverFast/ctWrCirc_4" BEL "ql1/waverFast/ctWrCirc_3" BEL
+        "ql1/waverFast/ctWrCirc_2" BEL "ql1/waverFast/ctWrCirc_1" BEL
+        "ql1/waverFast/ctWrCirc_0" BEL "ql1/waverFast/acqFastCs_FSM_FFd1" BEL
+        "ql1/waverFast/acqFastCs_FSM_FFd2" BEL
+        "ql1/waverFast/acqFastCs_FSM_FFd3" BEL "ql1/waverFast/decimator_2" BEL
+        "ql1/waverFast/decimator_1" BEL "ql1/waverFast/decimator_0" BEL
+        "ql1/waverFast/ctRdCirc_9" BEL "ql1/waverFast/ctRdCirc_8" BEL
+        "ql1/waverFast/ctRdCirc_7" BEL "ql1/waverFast/ctRdCirc_6" BEL
+        "ql1/waverFast/ctRdCirc_5" BEL "ql1/waverFast/ctRdCirc_4" BEL
+        "ql1/waverFast/ctRdCirc_2" BEL "ql1/waverFast/ctRdCirc_1" BEL
+        "ql1/waverFast/ctRdCirc_3" BEL "ql1/waverFast/ctRdCirc_0" BEL
+        "ql1/waverFast/ctStore_12" BEL "ql1/waverFast/ctStore_11" BEL
+        "ql1/waverFast/ctStore_10" BEL "ql1/waverFast/ctStore_9" BEL
+        "ql1/waverFast/ctStore_8" BEL "ql1/waverFast/ctStore_7" BEL
+        "ql1/waverFast/ctStore_6" BEL "ql1/waverFast/ctStore_5" BEL
+        "ql1/waverFast/ctStore_4" BEL "ql1/waverFast/ctStore_3" BEL
+        "ql1/waverFast/ctStore_2" BEL "ql1/waverFast/ctStore_1" BEL
+        "ql1/waverFast/ctStore_0" BEL "ql1/waverFast/adWrCap_12" BEL
+        "ql1/waverFast/adWrCap_11" BEL "ql1/waverFast/adWrCap_10" BEL
+        "ql1/waverFast/adWrCap_9" BEL "ql1/waverFast/adWrCap_8" BEL
+        "ql1/waverFast/adWrCap_7" BEL "ql1/waverFast/adWrCap_6" BEL
+        "ql1/waverFast/adWrCap_5" BEL "ql1/waverFast/adWrCap_4" BEL
+        "ql1/waverFast/adWrCap_3" BEL "ql1/waverFast/adWrCap_2" BEL
+        "ql1/waverFast/adWrCap_1" BEL "ql1/waverFast/adWrCap_0" BEL
+        "ql1/waverFast/valResync" BEL "ql1/waverFast/fifoWrDone" BEL
+        "ql1/waverFast/dataDecim_13" BEL "ql1/waverFast/dataDecim_12" BEL
+        "ql1/waverFast/dataDecim_11" BEL "ql1/waverFast/dataDecim_10" BEL
+        "ql1/waverFast/dataDecim_9" BEL "ql1/waverFast/dataDecim_8" BEL
+        "ql1/waverFast/dataDecim_7" BEL "ql1/waverFast/dataDecim_6" BEL
+        "ql1/waverFast/dataDecim_5" BEL "ql1/waverFast/dataDecim_4" BEL
+        "ql1/waverFast/dataDecim_3" BEL "ql1/waverFast/dataDecim_2" BEL
+        "ql1/waverFast/dataDecim_1" BEL "ql1/waverFast/dataDecim_0" BEL
+        "ql1/ddr_16_1/make_path[6].fastInstance.iddr_x" BEL
+        "ql1/ddr_16_1/make_path[5].fastInstance.iddr_x" BEL
+        "ql1/ddr_16_1/make_path[4].fastInstance.iddr_x" BEL
+        "ql1/ddr_16_1/make_path[3].fastInstance.iddr_x" BEL
+        "ql1/ddr_16_1/make_path[2].fastInstance.iddr_x" BEL
+        "ql1/ddr_16_1/make_path[1].fastInstance.iddr_x" BEL
+        "ql1/ddr_16_1/make_path[0].fastInstance.iddr_x" BEL
+        "ql1/ddr_16_1/bufferR" BEL "ql1/ddr_16_1/sysClkTest" BEL
+        "i2/waverFast/adWrFifo_12" BEL "i2/waverFast/adWrFifo_11" BEL
+        "i2/waverFast/adWrFifo_10" BEL "i2/waverFast/adWrFifo_9" BEL
+        "i2/waverFast/adWrFifo_8" BEL "i2/waverFast/adWrFifo_7" BEL
+        "i2/waverFast/adWrFifo_6" BEL "i2/waverFast/adWrFifo_5" BEL
+        "i2/waverFast/adWrFifo_4" BEL "i2/waverFast/adWrFifo_3" BEL
+        "i2/waverFast/adWrFifo_2" BEL "i2/waverFast/adWrFifo_1" BEL
+        "i2/waverFast/adWrFifo_0" BEL "i2/waverFast/ctWrCirc_9" BEL
+        "i2/waverFast/ctWrCirc_8" BEL "i2/waverFast/ctWrCirc_7" BEL
+        "i2/waverFast/ctWrCirc_6" BEL "i2/waverFast/ctWrCirc_5" BEL
+        "i2/waverFast/ctWrCirc_4" BEL "i2/waverFast/ctWrCirc_3" BEL
+        "i2/waverFast/ctWrCirc_2" BEL "i2/waverFast/ctWrCirc_1" BEL
+        "i2/waverFast/ctWrCirc_0" BEL "i2/waverFast/acqFastCs_FSM_FFd1" BEL
+        "i2/waverFast/acqFastCs_FSM_FFd2" BEL
+        "i2/waverFast/acqFastCs_FSM_FFd3" BEL "i2/waverFast/decimator_2" BEL
+        "i2/waverFast/decimator_1" BEL "i2/waverFast/decimator_0" BEL
+        "i2/waverFast/ctRdCirc_9" BEL "i2/waverFast/ctRdCirc_8" BEL
+        "i2/waverFast/ctRdCirc_7" BEL "i2/waverFast/ctRdCirc_6" BEL
+        "i2/waverFast/ctRdCirc_5" BEL "i2/waverFast/ctRdCirc_4" BEL
+        "i2/waverFast/ctRdCirc_2" BEL "i2/waverFast/ctRdCirc_1" BEL
+        "i2/waverFast/ctRdCirc_3" BEL "i2/waverFast/ctRdCirc_0" BEL
+        "i2/waverFast/ctStore_12" BEL "i2/waverFast/ctStore_11" BEL
+        "i2/waverFast/ctStore_10" BEL "i2/waverFast/ctStore_9" BEL
+        "i2/waverFast/ctStore_8" BEL "i2/waverFast/ctStore_7" BEL
+        "i2/waverFast/ctStore_6" BEL "i2/waverFast/ctStore_5" BEL
+        "i2/waverFast/ctStore_4" BEL "i2/waverFast/ctStore_3" BEL
+        "i2/waverFast/ctStore_2" BEL "i2/waverFast/ctStore_1" BEL
+        "i2/waverFast/ctStore_0" BEL "i2/waverFast/adWrCap_12" BEL
+        "i2/waverFast/adWrCap_11" BEL "i2/waverFast/adWrCap_10" BEL
+        "i2/waverFast/adWrCap_9" BEL "i2/waverFast/adWrCap_8" BEL
+        "i2/waverFast/adWrCap_7" BEL "i2/waverFast/adWrCap_6" BEL
+        "i2/waverFast/adWrCap_5" BEL "i2/waverFast/adWrCap_4" BEL
+        "i2/waverFast/adWrCap_3" BEL "i2/waverFast/adWrCap_2" BEL
+        "i2/waverFast/adWrCap_1" BEL "i2/waverFast/adWrCap_0" BEL
+        "i2/waverFast/valResync" BEL "i2/waverFast/fifoWrDone" BEL
+        "i2/waverFast/dataDecim_13" BEL "i2/waverFast/dataDecim_12" BEL
+        "i2/waverFast/dataDecim_11" BEL "i2/waverFast/dataDecim_10" BEL
+        "i2/waverFast/dataDecim_9" BEL "i2/waverFast/dataDecim_8" BEL
+        "i2/waverFast/dataDecim_7" BEL "i2/waverFast/dataDecim_6" BEL
+        "i2/waverFast/dataDecim_5" BEL "i2/waverFast/dataDecim_4" BEL
+        "i2/waverFast/dataDecim_3" BEL "i2/waverFast/dataDecim_2" BEL
+        "i2/waverFast/dataDecim_1" BEL "i2/waverFast/dataDecim_0" BEL
+        "i2/ddr_16_1/make_path[6].fastInstance.iddr_x" BEL
+        "i2/ddr_16_1/make_path[5].fastInstance.iddr_x" BEL
+        "i2/ddr_16_1/make_path[4].fastInstance.iddr_x" BEL
+        "i2/ddr_16_1/make_path[3].fastInstance.iddr_x" BEL
+        "i2/ddr_16_1/make_path[2].fastInstance.iddr_x" BEL
+        "i2/ddr_16_1/make_path[1].fastInstance.iddr_x" BEL
+        "i2/ddr_16_1/make_path[0].fastInstance.iddr_x" BEL
+        "i2/ddr_16_1/bufferR" BEL "i2/ddr_16_1/sysClkTest" BEL
+        "i1/waverFast/syncADC" BEL "ql1/waverFast/syncADC" BEL
+        "i2/waverFast/syncADC" BEL "aux_0" PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_pins<32>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_pins<32>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_pins<32>"
+        PIN
+        "i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_pins<32>"
+        PIN
+        "i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_pins<33>"
+        PIN
+        "i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_pins<32>"
+        PIN
+        "i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_pins<33>"
+        PIN
+        "ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_pins<32>"
+        PIN
+        "ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_pins<33>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>";
+NET "qh1/ddr_16_1/inputClk" PERIOD = 10 ns HIGH 50%;
+NET "q2/ddr_16_1/inputClk" PERIOD = 10 ns HIGH 50%;
+NET "q3/ddr_16_1/inputClk" PERIOD = 10 ns HIGH 50%;
+NET "clk_25M_local" PERIOD = 40 ns HIGH 50%;
+NET "clk_local" PERIOD = 10 ns HIGH 50%;
+TS_ADC_250_CLK = PERIOD TIMEGRP "ADC_250_CLK" 4 ns HIGH 50% PRIORITY 1;
+SCHEMATIC END;
+

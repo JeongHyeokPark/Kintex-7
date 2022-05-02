@@ -1,0 +1,847 @@
+Release 14.3 - Bitgen P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Loading device for application Rf_Device from file '7k160t.nph' in environment
+/opt/Xilinx/14.3/ISE_DS/ISE/.
+   "telescope" is an NCD, version 3.2, device xc7k160t, package ffg676, speed -2
+Opened constraints file telescope.pcf.
+
+Thu Apr 28 14:19:53 2022
+
+/opt/Xilinx/14.3/ISE_DS/ISE/bin/lin64/unwrapped/bitgen -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g ConfigRate:3 -g CclkPin:PullUp -g M0Pin:PullUp -g M1Pin:PullUp -g M2Pin:PullUp -g ProgPin:PullUp -g InitPin:Pullup -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g Disable_JTAG:No -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g ExtMasterCclk_en:Disable -g ConfigFallback:Disable -g BPI_page_size:1 -g BPI_sync_mode:Disable -g SPI_32bit_addr:No -g SPI_buswidth:1 -g SPI_Fall_Edge:No -g OverTempPowerDown:Disable -g USR_ACCESS:None -g JTAG_XADC:Enable -g DCIUpdateMode:AsRequired -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g Match_cycle:Auto -g Security:None -g ICAP_select:Auto -g DonePipe:Yes -g Encrypt:No telescope.ncd 
+
+INFO:Bitgen:40 - Replacing "Auto" with "NoWait" for option "Match_cycle".  Most
+   commonly, bitgen has determined and will use a specific value instead of the
+   generic command-line value of "Auto".  Alternately, this message appears if
+   the same option is specified multiple times on the command-line.  In this
+   case, the option listed last will be used.
+Summary of Bitgen Options:
++----------------------+----------------------+
+| Option Name          | Current Setting      |
++----------------------+----------------------+
+| Compress             | (Not Specified)*     |
++----------------------+----------------------+
+| Readback             | (Not Specified)*     |
++----------------------+----------------------+
+| CRC                  | Enable**             |
++----------------------+----------------------+
+| DebugBitstream       | No**                 |
++----------------------+----------------------+
+| ConfigRate           | 3**                  |
++----------------------+----------------------+
+| StartupClk           | Cclk**               |
++----------------------+----------------------+
+| CclkPin              | Pullup**             |
++----------------------+----------------------+
+| DonePin              | Pullup*              |
++----------------------+----------------------+
+| M0Pin                | Pullup**             |
++----------------------+----------------------+
+| M1Pin                | Pullup**             |
++----------------------+----------------------+
+| M2Pin                | Pullup**             |
++----------------------+----------------------+
+| ProgPin              | Pullup**             |
++----------------------+----------------------+
+| InitPin              | Pullup**             |
++----------------------+----------------------+
+| TckPin               | Pullup**             |
++----------------------+----------------------+
+| TdiPin               | Pullup**             |
++----------------------+----------------------+
+| TdoPin               | Pullup**             |
++----------------------+----------------------+
+| TmsPin               | Pullup**             |
++----------------------+----------------------+
+| UnusedPin            | Pulldown**           |
++----------------------+----------------------+
+| GWE_cycle            | 6**                  |
++----------------------+----------------------+
+| GTS_cycle            | 5**                  |
++----------------------+----------------------+
+| OverTempPowerDown    | Disable**            |
++----------------------+----------------------+
+| LCK_cycle            | NoWait*              |
++----------------------+----------------------+
+| Match_cycle          | NoWait               |
++----------------------+----------------------+
+| DONE_cycle           | 4**                  |
++----------------------+----------------------+
+| Persist              | No*                  |
++----------------------+----------------------+
+| DonePipe             | Yes**                |
++----------------------+----------------------+
+| Security             | None**               |
++----------------------+----------------------+
+| UserID               | 0xFFFFFFFF**         |
++----------------------+----------------------+
+| ActiveReconfig       | No*                  |
++----------------------+----------------------+
+| Encrypt              | No**                 |
++----------------------+----------------------+
+| EncryptKeySelect     | bbram*               |
++----------------------+----------------------+
+| Key0                 | pick*                |
++----------------------+----------------------+
+| StartCBC             | pick*                |
++----------------------+----------------------+
+| HKey                 | pick*                |
++----------------------+----------------------+
+| KeyFile              | (Not Specified)*     |
++----------------------+----------------------+
+| DCIUpdateMode        | AsRequired**         |
++----------------------+----------------------+
+| ICAP_Select          | Auto**               |
++----------------------+----------------------+
+| ConfigFallback       | Disable**            |
++----------------------+----------------------+
+| SelectMAPAbort       | Enable*              |
++----------------------+----------------------+
+| BPI_page_size        | 1**                  |
++----------------------+----------------------+
+| BPI_1st_read_cycle   | 1*                   |
++----------------------+----------------------+
+| next_config_addr     | None*                |
++----------------------+----------------------+
+| next_config_reboot   | Enable*              |
++----------------------+----------------------+
+| InitSignalsError     | Enable*              |
++----------------------+----------------------+
+| XADCPartialReconfig  | Disable*             |
++----------------------+----------------------+
+| XADCEnhancedLinearity | Off*                 |
++----------------------+----------------------+
+| JTAG_XADC            | Enable**             |
++----------------------+----------------------+
+| Disable_JTAG         | No**                 |
++----------------------+----------------------+
+| XADCPowerDown        | Disable*             |
++----------------------+----------------------+
+| Partial              | (Not Specified)*     |
++----------------------+----------------------+
+| ExtMasterCclk_en     | Disable**            |
++----------------------+----------------------+
+| BPI_sync_mode        | Disable**            |
++----------------------+----------------------+
+| SPI_32bit_addr       | No**                 |
++----------------------+----------------------+
+| SPI_buswidth         | 1**                  |
++----------------------+----------------------+
+| SPI_Fall_Edge        | No**                 |
++----------------------+----------------------+
+| RevisionSelect       | 00*                  |
++----------------------+----------------------+
+| RevisionSelect_tristate | Disable*             |
++----------------------+----------------------+
+| TIMER_CFG            | None*                |
++----------------------+----------------------+
+| TIMER_USR            | None*                |
++----------------------+----------------------+
+| USR_ACCESS           | None**               |
++----------------------+----------------------+
+| TimeStamp            | Default*             |
++----------------------+----------------------+
+| IEEE1532             | No*                  |
++----------------------+----------------------+
+| Binary               | No**                 |
++----------------------+----------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+There were 0 CONFIG constraint(s) processed from telescope.pcf.
+
+
+Running DRC.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net q3/itemWr is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   make_tel_b.alims/reset_psPeriod[5]_AND_573_o is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   genIoBloc/reset_GND_35_o_AND_109_o is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   genIoBloc/reset_GND_35_o_AND_110_o is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   make_tel_b.alims/reset_psPeriod[7]_AND_569_o is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   rEngine/listenerCs[2]_val_Mux_70_o is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   make_tel_b.alims/reset_psPeriod[2]_AND_579_o is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   rEngine/listenerCs[2]_GND_573_o_Mux_54_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   rEngine/listenerCs[2]_GND_570_o_Mux_48_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   make_tel_b.alims/reset_psPeriod[4]_AND_575_o is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   make_tel_b.alims/reset_psPeriod[6]_AND_571_o is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   make_tel_b.alims/reset_psPeriod[1]_AND_581_o is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   rEngine/listenerCs[2]_val_Mux_46_o is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   rEngine/listenerCs[2]_val_Mux_44_o is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   make_tel_b.alims/reset_psPeriod[3]_AND_577_o is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   rEngine/listenerCs[2]_GND_588_o_Mux_84_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   rEngine/listenerCs[2]_GND_589_o_Mux_86_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   rEngine/listenerCs[2]_PWR_259_o_Mux_88_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/Mram__n07122 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal <lWaitIn_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <free_n_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <free_p_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <riserv_n<7>_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ioFpga_10_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ioFpga_11_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ioFpga_13_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ioFpga_19_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <aVersB_1_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <aVersB_2_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fLink/fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/
+   gdm.dm/Mram_RAM1_RAMD_D1_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_in
+   st/Mram_ram6_RAMD_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_in
+   st/Mram_ram5_RAMD_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_in
+   st/Mram_ram7_RAMD_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_in
+   st/Mram_ram10_RAMD_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_in
+   st/Mram_ram9_RAMD_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_in
+   st/Mram_ram8_RAMD_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_in
+   st/Mram_ram2_RAMD_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_in
+   st/Mram_ram4_RAMD_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fLink/fifo3/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/
+   gdm.dm/Mram_RAM1_RAMD_D1_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fLink/fifo3/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/
+   gdm.dm/Mram_RAM2_RAMD_D1_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_in
+   st/Mram_ram1_RAMD_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_in
+   st/Mram_ram3_RAMD_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram17_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram18_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram20_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram15_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram19_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram14_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram10_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram4_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram3_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram2_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram1_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram13_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram16_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram12_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram9_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram6_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram7_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram11_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram5_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpr
+   am_inst/Mram_ram8_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram20_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <i2/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram
+   _inst/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram17_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram18_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram1_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <i2/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram
+   _inst/Mram_ram2_RAMD_D1_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram4_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram2_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram19_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram3_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram14_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram16_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram11_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram9_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram12_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram5_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram13_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram15_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram10_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram8_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram6_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q3/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram7_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <i1/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram
+   _inst/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <i1/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram
+   _inst/Mram_ram2_RAMD_D1_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ql1/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram2_RAMD_D1_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ql1/waverFast/make_32_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <adc_monitor/aligneur/memoireRam/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdp
+   ram_inst/Mram_ram1_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <adc_monitor/aligneur/memoireRam/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdp
+   ram_inst/Mram_ram2_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <adc_monitor/aligneur/memoireRam/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdp
+   ram_inst/Mram_ram4_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <adc_monitor/aligneur/memoireRam/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdp
+   ram_inst/Mram_ram3_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram20_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram19_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram7_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram5_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram18_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram17_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram8_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram6_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram4_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram2_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram1_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram3_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram15_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram16_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram11_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram14_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram13_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram12_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram9_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpra
+   m_inst/Mram_ram10_RAMD_O> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   ProtoComp94.PULL is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   ProtoComp94.PULL.1 is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   ProtoComp94.PULL.2 is set but the tri state is not configured. 
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<q2/ddr_16_1/make_path[3].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<q2/ddr_16_1/make_path[4].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<q2/ddr_16_1/make_path[5].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<q2/ddr_16_1/make_path[6].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<q2/ddr_16_1/make_path[0].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<q2/ddr_16_1/make_path[1].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<q2/ddr_16_1/make_path[2].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<ql1/ddr_16_1/adc_clk_del>:<IDELAYE2_IDELAYE2>.  With IDELAY_TYPE
+   programming FIXED, active input pins INC, REGRST, and CE are not used and
+   will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<qh1/ddr_16_1/adc_clk_del>:<IDELAYE2_IDELAYE2>.  With IDELAY_TYPE
+   programming FIXED, active input pins INC, REGRST, and CE are not used and
+   will be ignored.
+WARNING:PhysDesignRules:2165 - Issue with pin connections and/or configuration
+   on
+   block:<fLink/deser_VM/deser_inst/AISER8b/ISERDES_NODELAY_master>:<ISERDESE2_I
+   SERDESE2>.  Useless CE2 input pin. With NUM_CE set 1, the CE2 input pin is
+   being ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<q3/ddr_16_1/adc_clk_del>:<IDELAYE2_IDELAYE2>.  With IDELAY_TYPE
+   programming FIXED, active input pins INC, REGRST, and CE are not used and
+   will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<i2/ddr_16_1/adc_clk_del>:<IDELAYE2_IDELAYE2>.  With IDELAY_TYPE
+   programming FIXED, active input pins INC, REGRST, and CE are not used and
+   will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<ql1/ddr_16_1/make_path[0].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<ql1/ddr_16_1/make_path[2].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<ql1/ddr_16_1/make_path[1].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<ql1/ddr_16_1/make_path[4].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<ql1/ddr_16_1/make_path[3].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<ql1/ddr_16_1/make_path[6].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<ql1/ddr_16_1/make_path[5].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<q3/ddr_16_1/make_path[3].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<q3/ddr_16_1/make_path[4].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<qh1/ddr_16_1/make_path[0].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<q3/ddr_16_1/make_path[5].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<q3/ddr_16_1/make_path[6].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<qh1/ddr_16_1/make_path[2].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<qh1/ddr_16_1/make_path[1].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<q3/ddr_16_1/make_path[0].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<q3/ddr_16_1/make_path[1].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<q3/ddr_16_1/make_path[2].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<qh1/ddr_16_1/make_path[4].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<qh1/ddr_16_1/make_path[3].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<qh1/ddr_16_1/make_path[6].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<qh1/ddr_16_1/make_path[5].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<i2/ddr_16_1/make_path[3].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<i2/ddr_16_1/make_path[4].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<i2/ddr_16_1/make_path[5].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<i2/ddr_16_1/make_path[6].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<i2/ddr_16_1/make_path[0].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<i2/ddr_16_1/make_path[1].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<i2/ddr_16_1/make_path[2].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<i1/ddr_16_1/make_path[3].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<i1/ddr_16_1/make_path[4].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<i1/ddr_16_1/make_path[5].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<i1/ddr_16_1/make_path[6].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<i1/ddr_16_1/make_path[0].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<i1/ddr_16_1/make_path[1].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<i1/ddr_16_1/make_path[2].idels>:<IDELAYE2_IDELAYE2>.  With
+   IDELAY_TYPE programming FIXED, active input pins INC, REGRST, and CE are not
+   used and will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<q2/ddr_16_1/adc_clk_del>:<IDELAYE2_IDELAYE2>.  With IDELAY_TYPE
+   programming FIXED, active input pins INC, REGRST, and CE are not used and
+   will be ignored.
+WARNING:PhysDesignRules:2394 - Issue with pin connections and/or configuration
+   on block:<i1/ddr_16_1/adc_clk_del>:<IDELAYE2_IDELAYE2>.  With IDELAY_TYPE
+   programming FIXED, active input pins INC, REGRST, and CE are not used and
+   will be ignored.
+INFO:PhysDesignRules:2288 - The read port and write port clocks of BRAM
+   instance,
+   q2/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generat
+   or/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO
+   _BMM_INFO.SDP.WIDE_PRIM36.ram, are using the same clock signal (synchronous
+   clocking) with WRITE_FIRST mode specified. This configuration may encounter
+   address collisions if the same address appears on both ports. It is suggested
+   for this configuration to use READ_FIRST mode to avoid any conditions for
+   address collision. See the FPGA Memory Resources User Guide for additional
+   information.
+INFO:PhysDesignRules:2288 - The read port and write port clocks of BRAM
+   instance,
+   q3/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generat
+   or/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO
+   _BMM_INFO.SDP.WIDE_PRIM36.ram, are using the same clock signal (synchronous
+   clocking) with WRITE_FIRST mode specified. This configuration may encounter
+   address collisions if the same address appears on both ports. It is suggested
+   for this configuration to use READ_FIRST mode to avoid any conditions for
+   address collision. See the FPGA Memory Resources User Guide for additional
+   information.
+INFO:PhysDesignRules:2288 - The read port and write port clocks of BRAM
+   instance,
+   q2/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/
+   gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BM
+   M_INFO.SDP.WIDE_PRIM36.ram, are using the same clock signal (synchronous
+   clocking) with WRITE_FIRST mode specified. This configuration may encounter
+   address collisions if the same address appears on both ports. It is suggested
+   for this configuration to use READ_FIRST mode to avoid any conditions for
+   address collision. See the FPGA Memory Resources User Guide for additional
+   information.
+INFO:PhysDesignRules:2288 - The read port and write port clocks of BRAM
+   instance,
+   qh1/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator
+   /gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_B
+   MM_INFO.SDP.WIDE_PRIM36.ram, are using the same clock signal (synchronous
+   clocking) with WRITE_FIRST mode specified. This configuration may encounter
+   address collisions if the same address appears on both ports. It is suggested
+   for this configuration to use READ_FIRST mode to avoid any conditions for
+   address collision. See the FPGA Memory Resources User Guide for additional
+   information.
+INFO:PhysDesignRules:2288 - The read port and write port clocks of BRAM
+   instance,
+   q3/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/
+   gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BM
+   M_INFO.SDP.WIDE_PRIM36.ram, are using the same clock signal (synchronous
+   clocking) with WRITE_FIRST mode specified. This configuration may encounter
+   address collisions if the same address appears on both ports. It is suggested
+   for this configuration to use READ_FIRST mode to avoid any conditions for
+   address collision. See the FPGA Memory Resources User Guide for additional
+   information.
+INFO:PhysDesignRules:2288 - The read port and write port clocks of BRAM
+   instance,
+   qh1/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_genera
+   tor/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/N
+   O_BMM_INFO.SDP.WIDE_PRIM36.ram, are using the same clock signal (synchronous
+   clocking) with WRITE_FIRST mode specified. This configuration may encounter
+   address collisions if the same address appears on both ports. It is suggested
+   for this configuration to use READ_FIRST mode to avoid any conditions for
+   address collision. See the FPGA Memory Resources User Guide for additional
+   information.
+DRC detected 0 errors and 164 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
+Creating bit map...
+Saving bit stream in "telescope.bit".
+Bitstream generation is complete.
